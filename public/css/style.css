@@ -22,9 +22,20 @@ body {
 	margin-top: 50px;
 }
 .footer-box {
+	margin: 0 auto;
 	width: 100%;
-	height: 180px;
 	background-color: #f6f6f6;
+	padding: 50px;
+	color: #222;
+}
+.footer-box .social-logo {
+	margin: 100px 0 0 0;
+}
+.footer-box .social-logo a {
+	margin-right: 25px;
+}
+.footer-box2 .copyright {
+	text-align: right;
 }
 /* body */
 #home-main {
@@ -55,8 +66,13 @@ body {
 .home2 .col-xs-12 {
 	padding: 0;
 }
-.home2 button {
+.btn-default {
 	margin-top: 50px;
+	text-align: center;
+	padding: 20px 100px;
+	background-color: #222;
+	color: #f6f6f6;
+	font-weight: 700;
 }
 h2 {
 	margin: 0 0 50px 0;
@@ -72,4 +88,16 @@ h1 {
 	color: #222;
 	top: 200px;
 }
-/**/
+.home4 {
+	padding: 100px;
+}
+/* geolocation */
+.home5 {
+	margin: 0 auto;
+	text-align: center;
+	padding: 0 0 100px 0;
+}
+#socialMatrix-map {
+	height: 500px;
+	margin-bottom: 20px;
+} 

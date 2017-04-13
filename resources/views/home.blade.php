@@ -26,7 +26,15 @@
 		<img src="images/homeservices.jpg" id="home-services">
 		<h1>OUR SERVICES</h1>
 	</div>
+	<div class="home4">
+		
+	</div>
+	<div class="home5">
+		<div id="socialMatrix-map"></div>
+		<p><small>CONTACT@SOCIALMATRIX.NZ</small><p>
+		<p><small>2/130 ORIENTAL PARADE, ORIENTAL BAY, WELLINGTON, NEW ZEALAND 6011<br>+64 4 801 9022</small></p>
+		<button type="button" class="btn btn-default">CONTACT US</button>
+	</div>
 
-  
-
+ 
 @endsection
