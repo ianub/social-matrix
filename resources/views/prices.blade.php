@@ -11,7 +11,7 @@
 		</div>
 	</div>
 
-	<div class="home1">
+	<div class="prices1">
 		<div class="container-fluid">
 			<div class="col-xs-12">
 				<h2>STANDARD</h2>
@@ -31,7 +31,7 @@
 		</div>
 	</div>
 
-	<div class="home2">
+	<div class="prices2">
 		<div class="container-fluid">
 			<div class="col-xs-12">
 				<h2>PREMIUM</h2>
@@ -52,7 +52,7 @@
 		</div>
 	</div>
 
-	<div class="home1">
+	<div class="prices3">
 		<button type="button" class="btn btn-default">CONTACT US</button>
 	</div>
 

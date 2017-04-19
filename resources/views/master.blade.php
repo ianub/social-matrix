@@ -38,6 +38,8 @@
         <!-- /.container-fluid -->
     </nav>
 
+    
+
 	@yield('content')
 
 	<footer>
