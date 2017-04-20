@@ -190,17 +190,10 @@ body {
 
 
 
-a:hover
+.services1 a:hover
 {
     text-decoration:none;
 }
-#wrapper_bu {
-    position: absolute;
-    width: 100%;
-    left: -4%;
-}
-
-
 .txt_h1 {
     font-size: 2em;
 }
@@ -272,8 +265,7 @@ a:hover
 }
 
 .wrapper_bu {
-    height: 115px;
-    position: relative;
+    text-align: center;
 }
 
 .panel-default {
@@ -282,26 +274,31 @@ a:hover
 .panel-heading {
     padding:0px;
 }
-
 .title.active {
     font-size: 17px;
-    /*font-family: ProximaNovaBold;*/
     color: #181818;
     line-height: 20px;
 }
-
-.title {
-    font-size: 15px;
+h5 {
     color: #878787;
     margin: 25px 0px 0px 0px;
-    text-transform: uppercase;
 }
-
-.image img 
-{
-    display:inline-block;
+.image {
+	margin-right: 10px;
+	margin-bottom: 20px;
 }
-
+.wrapper_bu .image {
+	display: inline-block !important;
+}
+.wrapper_bu .image img {
+	margin: 0 auto;
+}
+.panel-group {
+	margin-top: 30px;
+}
+.panel {
+	background-color: transparent;
+}
 
 
 

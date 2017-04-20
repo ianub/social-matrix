@@ -18,7 +18,7 @@
 		</div>
 	</div>
 
-	{{-- <div class="services1">
+<!-- 	{{-- <div class="services1">
 		<div class="home-text">
 			<div class="container-fluid">
 				<div class="row">
@@ -147,38 +147,57 @@
 			</div>
 		</div>
 	</div> --}}
-
+ -->
+ <div class="services1">
 	<div class="container text-center">
 	<div class="row">
 		<div class="col-xs-12">
-		       <div class="wrapper_bu" style="position:relative;">
+		       <div class="wrapper_bu">
 		           <div class="image">
                         <a class="panel-heading accordion-toggle collapsed left" data-toggle="collapse"
-                           data-parent="#accordion1,#accordion2,#accordion3" data-target="#collapseTwo">
-                              <div id="bu1">
-                                    <img alt="" src="https://s6.postimg.org/ek5rpg6i9/karachi.png" class="img-responsive imgtransform">
-                                    <div class="title">karachi</div>
-                              </div>
+                           data-parent="#accordion1,#accordion2,#accordion3,#accordion4,#accordion5" data-target="#collapseTwo">
+                            <div id="bu1">
+                                  <img alt="" src="https://s6.postimg.org/ek5rpg6i9/karachi.png" class="img-responsive imgtransform">
+                                  <h5>SOCIAL INSIGHT</h5>
+                            </div>
                         </a>
                  </div>
                  <div class="image">
                     <a class="panel-heading accordion-toggle collapsed left" data-toggle="collapse"
-                       data-parent="#accordion1,#accordion2,#accordion3" data-target="#collapseOne">
+                       data-parent="#accordion1,#accordion2,#accordion3,#accordion4,#accordion5" data-target="#collapseOne">
                         <div id="bu2">
                             <img alt="" src="https://s6.postimg.org/kwgbljk6p/islamabad.png" class="img-responsive imgtransform">
-                            <div class="title">islamabad</div>
+                            <h5>SOCIAL SELLING</h5>
                         </div>
                     </a>
                  </div>
                 <div class="image">
-                    <a class="panel-heading accordion-toggle collapsed left " data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3"
+                    <a class="panel-heading accordion-toggle collapsed left " data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4,#accordion5"
                        data-target="#collapseThree">
                           <div id="bu3">
                               <img alt="" src="https://s6.postimg.org/4wxo1zo4x/dubai.png" class="img-responsive imgtransform">
-                              <div class="title">dubai</div>
+                              <h5>AUDIENCE GROWTH</h5>
                           </div>
                     </a>
                 </div>
+                <div class="image">
+                        <a class="panel-heading accordion-toggle collapsed left" data-toggle="collapse"
+                           data-parent="#accordion1,#accordion2,#accordion3,#accordion4,#accordion5" data-target="#collapseTwo">
+                            <div id="bu4">
+                                  <img alt="" src="https://s6.postimg.org/ek5rpg6i9/karachi.png" class="img-responsive imgtransform">
+                                  <h5>CONTENT CULTURE</h5>
+                            </div>
+                        </a>
+                 </div>
+                 <div class="image">
+                        <a class="panel-heading accordion-toggle collapsed left" data-toggle="collapse"
+                           data-parent="#accordion1,#accordion2,#accordion3,#accordion4,#accordion5" data-target="#collapseTwo">
+                            <div id="bu5">
+                                  <img alt="" src="https://s6.postimg.org/ek5rpg6i9/karachi.png" class="img-responsive imgtransform">
+                                  <h5>CONTENT PRODUCTION</h5>
+                            </div>
+                        </a>
+                 </div>
             </div>
             <div class="panel-group" id="accordion1">
                     <div class="panel panel-default">
@@ -188,7 +207,7 @@
                                     <img src="https://s6.postimg.org/50w2vzj01/slider_down_Arrow.png">
                                 </div>
                                 <div>
-                                  <h1>Islamabad</h1>
+                                  <h1>SOCIAL INSIGHT</h1>
                                   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
                                 </div>
                             </div>
@@ -201,7 +220,7 @@
                                     <img src="https://s6.postimg.org/50w2vzj01/slider_down_Arrow.png">
                                 </div>
                                 <div>
-                                  <h1>Karachi</h1>
+                                  <h1>SOCIAL SELLING</h1>
                                   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
                                 </div>
                             </div>
@@ -214,7 +233,33 @@
                                     <img src="https://s6.postimg.org/50w2vzj01/slider_down_Arrow.png">
                                 </div>
                                 <div>
-                                  <h1>Dubai</h1>
+                                  <h1>AUDIENCE GROWTH</h1>
+                                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div id="collapseFour" class="panel-collapse collapse">
+                       <div class="panel-body">
+                                <div class="center-down-arrow">
+                                    <img src="https://s6.postimg.org/50w2vzj01/slider_down_Arrow.png">
+                                </div>
+                                <div>
+                                  <h1>CONTENT CULTURE</h1>
+                                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div id="collapseFive" class="panel-collapse collapse">
+                       <div class="panel-body">
+                                <div class="center-down-arrow">
+                                    <img src="https://s6.postimg.org/50w2vzj01/slider_down_Arrow.png">
+                                </div>
+                                <div>
+                                  <h1>CONTENT PRODUCTION</h1>
                                   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
                                 </div>
                             </div>
@@ -224,10 +269,9 @@
 		</div>
 	</div>
 </div>
+</div>
 
-http://bootsnipp.com/snippets/x8Dbm
-
-	{{-- <div class="services-btn">
+	<!-- {{-- <div class="services-btn">
 		<div class="col-xs-12">
 			<button type="button" class="btn btn-default">SOCIAL INSIGHT</button>
 			<button type="button" class="btn btn-default">SOCIAL SELLING</button>
@@ -279,6 +323,6 @@ http://bootsnipp.com/snippets/x8Dbm
 				</div>
 			</div>
 		</div>
-	</div> --}}
+	</div> --}} -->
 
 @endsection
