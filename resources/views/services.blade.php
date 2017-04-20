@@ -4,14 +4,230 @@
 
 @section('content')
 
-	<div class="main-img">	
-		<div class="col-xs-12">
-			<img src="images/servicesmain.jpg">
-			<h1>SERVICES</h1>
+	<div class="services">
+		<div class="home-text">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="home-text-container">
+							<h1>OUR SERVICES</h1>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 
-	<div class="services-btn">
+	{{-- <div class="services1">
+		<div class="home-text">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-12"> --}}
+						{{-- <div class="home-text-container"> --}}
+
+							{{-- <div class="wrapper_bu">
+		           <div class="image">
+                        <a class="panel-heading accordion-toggle collapsed left" data-toggle="collapse"
+                           data-parent="#accordion1,#accordion2,#accordion3" data-target="#collapseTwo">
+                              <div id="bu1">
+                                    
+                                    <div class="title"><i class="fa fa-lightbulb-o" aria-hidden="true"></i>SOCIAL INSIGHT</div>
+                              </div>
+                        </a>
+                 </div>
+                 <div class="image">
+                    <a class="panel-heading accordion-toggle collapsed left" data-toggle="collapse"
+                       data-parent="#accordion1,#accordion2,#accordion3" data-target="#collapseOne">
+                        <div id="bu2">
+                            <i class="fa fa-lightbulb-o fa-5x" aria-hidden="true"></i>
+                            <div class="title">SOCIAL SELLING</div>
+                        </div>
+                    </a>
+                 </div>
+                <div class="image">
+                    <a class="panel-heading accordion-toggle collapsed left " data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3"
+                       data-target="#collapseThree">
+                          <div id="bu3">
+                              <i class="fa fa-lightbulb-o fa-5x" aria-hidden="true"></i>
+                              <div class="title">AUDIENCE GROWTH</div>
+                          </div>
+                    </a>
+                </div>
+                <div class="image">
+                    <a class="panel-heading accordion-toggle collapsed left " data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3"
+                       data-target="#collapseFour">
+                          <div id="bu4">
+                              <i class="fa fa-lightbulb-o fa-5x" aria-hidden="true"></i>
+                              <div class="title">CONTENT CULTURE</div>
+                          </div>
+                    </a>
+                </div>
+                <div class="image">
+                    <a class="panel-heading accordion-toggle collapsed left " data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3"
+                       data-target="#collapseFive">
+                          <div id="bu5">
+                              <i class="fa fa-lightbulb-o fa-5x" aria-hidden="true"></i>
+                              <div class="title">CONTENT PRODUCTION</div>
+                          </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="panel-group" id="accordion1">
+                    <div class="panel panel-default">
+                        <div id="collapseOne" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="center-down-arrow">
+                                    <img src="https://s6.postimg.org/50w2vzj01/slider_down_Arrow.png">
+                                </div>
+                                <div>
+                                  <h1>SOCIAL INSIGHT</h1>
+                                  <p>What is the business capability, capacity, and commitment to social as a critical channel to market? The Social Insight is a health check that clearly maps the scope of your social media, go to market plan.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div id="collapseTwo" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <div class="center-down-arrow">
+                                    <img src="https://s6.postimg.org/50w2vzj01/slider_down_Arrow.png">
+                                </div>
+                                <div>
+                                  <h1>SOCIAL SELLING</h1>
+                                  <p>Customer don't engage with the seller until 70% of the buying process is complete, although they are willing to engage with salespeople, they don't want to be sold to, they want to learn. 76% of buyers are ready to have a social media conversation about their pending buying decision.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div id="collapseThree" class="panel-collapse collapse">
+                       <div class="panel-body">
+                                <div class="center-down-arrow">
+                                    <img src="https://s6.postimg.org/50w2vzj01/slider_down_Arrow.png">
+                                </div>
+                                <div>
+                                  <h1>AUDIENCE GROWTH</h1>
+                                  <p>Who, specifically is your target audience and on what social platforms do they use? Most importantly, are you connected to them? If not, we need to develop interventions to connect so that our social tactics are landing with the right people.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div id="collapseFour" class="panel-collapse collapse">
+                       <div class="panel-body">
+                                <div class="center-down-arrow">
+                                    <img src="https://s6.postimg.org/50w2vzj01/slider_down_Arrow.png">
+                                </div>
+                                <div>
+                                  <h1>CONTENT CULTURE</h1>
+                                  <p>It's not just marketing and the ad agency that can generate content, how do you create a culture where everyone feels comfortable contributing to the richness of our social media presence, employees, stakeholder, suppliers and importantly customers.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div id="collapseFive" class="panel-collapse collapse">
+                       <div class="panel-body">
+                                <div class="center-down-arrow">
+                                    <img src="https://s6.postimg.org/50w2vzj01/slider_down_Arrow.png">
+                                </div>
+                                <div>
+                                  <h1>CONTENT PRODUCTION</h1>
+                                  <p>Generating persistent, provocative, engaging, video rich content that is grounded in the customer's world. Content that drives a conversation with your audience not a lecture gets better engagement.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> --}}
+
+					{{-- 	</div> --}}
+					{{-- </div>
+				</div>
+			</div>
+		</div>
+	</div> --}}
+
+	<div class="container text-center">
+	<div class="row">
+		<div class="col-xs-12">
+		       <div class="wrapper_bu" style="position:relative;">
+		           <div class="image">
+                        <a class="panel-heading accordion-toggle collapsed left" data-toggle="collapse"
+                           data-parent="#accordion1,#accordion2,#accordion3" data-target="#collapseTwo">
+                              <div id="bu1">
+                                    <img alt="" src="https://s6.postimg.org/ek5rpg6i9/karachi.png" class="img-responsive imgtransform">
+                                    <div class="title">karachi</div>
+                              </div>
+                        </a>
+                 </div>
+                 <div class="image">
+                    <a class="panel-heading accordion-toggle collapsed left" data-toggle="collapse"
+                       data-parent="#accordion1,#accordion2,#accordion3" data-target="#collapseOne">
+                        <div id="bu2">
+                            <img alt="" src="https://s6.postimg.org/kwgbljk6p/islamabad.png" class="img-responsive imgtransform">
+                            <div class="title">islamabad</div>
+                        </div>
+                    </a>
+                 </div>
+                <div class="image">
+                    <a class="panel-heading accordion-toggle collapsed left " data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3"
+                       data-target="#collapseThree">
+                          <div id="bu3">
+                              <img alt="" src="https://s6.postimg.org/4wxo1zo4x/dubai.png" class="img-responsive imgtransform">
+                              <div class="title">dubai</div>
+                          </div>
+                    </a>
+                </div>
+            </div>
+            <div class="panel-group" id="accordion1">
+                    <div class="panel panel-default">
+                        <div id="collapseOne" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="center-down-arrow">
+                                    <img src="https://s6.postimg.org/50w2vzj01/slider_down_Arrow.png">
+                                </div>
+                                <div>
+                                  <h1>Islamabad</h1>
+                                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div id="collapseTwo" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <div class="center-down-arrow">
+                                    <img src="https://s6.postimg.org/50w2vzj01/slider_down_Arrow.png">
+                                </div>
+                                <div>
+                                  <h1>Karachi</h1>
+                                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div id="collapseThree" class="panel-collapse collapse">
+                       <div class="panel-body">
+                                <div class="center-down-arrow">
+                                    <img src="https://s6.postimg.org/50w2vzj01/slider_down_Arrow.png">
+                                </div>
+                                <div>
+                                  <h1>Dubai</h1>
+                                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		</div>
+	</div>
+</div>
+
+http://bootsnipp.com/snippets/x8Dbm
+
+	{{-- <div class="services-btn">
 		<div class="col-xs-12">
 			<button type="button" class="btn btn-default">SOCIAL INSIGHT</button>
 			<button type="button" class="btn btn-default">SOCIAL SELLING</button>
@@ -63,6 +279,6 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> --}}
 
 @endsection
