@@ -29,6 +29,7 @@
 					<li><a href="{{ url('/team') }}">TEAM</a></li>
 					<li><a href="{{ url('/services') }}">SERVICES</a></li>
 					<li><a href="{{ url('/prices') }}">PRICES</a></li>
+					<li><a href="{{ url('/contact') }}">CONTACT</a></li>
 					<li><a href="{{ url('/login') }}">LOGIN</a></li>
 					<li><a href="{{ url('/register') }}">REGISTER</a></li>
                 </ul>
@@ -46,7 +47,7 @@
 		<div class="footer-box container-fluid">
 			<div class="col-xs-12">
 				<div>
-					<p><strong>GET IN TOUCH</strong></p>
+					<p>GET IN TOUCH</p>
 					<small><p>CONTACT@SOCIALMATRIX.NZ<p>
 					<p>2/130 ORIENTAL PARADE, ORIENTAL BAY, <br>WELLINGTON, NEW ZEALAND 6011<br>+64 4 801 9022</p></small>
 				</div>

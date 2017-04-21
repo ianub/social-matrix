@@ -13,7 +13,7 @@
 							<h2>THE BEST WAY TO SELL IS BY WORD OF MOUTH.<br>
 							SOCIAL MEDIA IS A PLATFORM TO CONNECT.<br>
 							PEOPLE TRUST PEOPLE.</h2>
-							<button type="button" class="btn btn-default">MEET OUR TEAM</button>
+							<button type="button" class="btn btn-default">WHO WE ARE</button>
 						</div>
 					</div>
 				</div>
@@ -34,14 +34,41 @@
 			</div>
 	</div>
 
+	<div class="home6">	
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-12">
+					<button type="button" class="btn btn-default">MEET OUR TEAM</button>
+				</div>
+			</div>
+		</div>		
+	</div>
+
 	<div class="home2">
 		<div class="home-text">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-xs-12">
 						<div class="home-text-container2">
-							<h2>"SOCIAL MATRIX WILL PROVIDE THE MECHANISMS TO MOVE YOUR SOCIAL CONVERSATIONS TO CONVERSIONS."</h2>
-							<p>Josh Borgia, founder of Social Matrix</p>
+							<h2>SOCIAL MATRIX WILL PROVIDE THE MECHANISMS TO MOVE YOUR SOCIAL CONVERSATIONS TO CONVERSIONS.</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="home5">
+		<div class="home-text">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="home-text-container">
+							<img src="images/qamea.png" height="50px">
+							<img src="images/mp.png" height="50px">
+							<img src="images/fronde.png" height="50px">
+							<img src="images/raywhite.png" height="50px">
+							<img src="images/prive.png" height="50px">
 						</div>
 					</div>
 				</div>
