@@ -30,8 +30,8 @@
 					<li><a href="{{ url('/services') }}">SERVICES</a></li>
 					<li><a href="{{ url('/prices') }}">PRICES</a></li>
 					<li><a href="{{ url('/contact') }}">CONTACT</a></li>
-					<li><a href="{{ url('/login') }}">LOGIN</a></li>
-					<li><a href="{{ url('/register') }}">REGISTER</a></li>
+					<!-- <li><a href="{{ url('/login') }}">LOGIN</a></li>
+					<li><a href="{{ url('/register') }}">REGISTER</a></li> -->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

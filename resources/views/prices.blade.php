@@ -8,7 +8,7 @@
 		<div class="home-text">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xs-12">
+					<div class="col-xs-12 col-sm-10">
 						<div class="home-text-container">
 							<h1>SMB SOCIAL SOLUTIONS</h1>
 						</div>
@@ -21,7 +21,7 @@
 	<div class="prices1">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-xs-12">
+				<div class="col-xs-12 col-sm-10">
 					<h2>STANDARD</h2>
 					<hr>
 					<h1>$999</h1>
@@ -43,7 +43,7 @@
 	<div class="prices2">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-xs-12">
+				<div class="col-xs-12 col-sm-10">
 					<h2>PREMIUM</h2>
 					<hr>
 					<h1>$1995</h1>
@@ -66,7 +66,7 @@
 	<div class="prices3">	
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-xs-12">
+				<div class="col-xs-12 col-sm-10">
 					<button type="button" class="btn btn-default">CONTACT US</button>
 				</div>
 			</div>

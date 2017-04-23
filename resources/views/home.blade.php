@@ -8,11 +8,11 @@
 		<div class="home-text">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xs-12">
+					<div class="col-xs-12 col-sm-10">
 						<div class="home-text-container">
-							<h2>THE BEST WAY TO SELL IS BY WORD OF MOUTH.<br>
+							<h1>THE BEST WAY TO SELL IS BY WORD OF MOUTH.<br>
 							SOCIAL MEDIA IS A PLATFORM TO CONNECT.<br>
-							PEOPLE TRUST PEOPLE.</h2>
+							PEOPLE TRUST PEOPLE.</h1>
 							<button type="button" class="btn btn-default">WHO WE ARE</button>
 						</div>
 					</div>
@@ -24,31 +24,22 @@
 	<div class="home1">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xs-12">
+					<div class="col-xs-12 col-sm-10">
 						<h3>SOCIAL MATRIX OFFERS A PLATFORM FROM WHICH TO REACH, CONNECT, ENGAGE, COMMUNICATE AND SELL.</h3>
 						<p>We specialise in, and are committed to, partnering our clients to engage with their defined audiences through social media.</p>
 						<p>Through specific interventions and growth, we connect you with your audience through various online platforms which your customers utilize every day.</p>
 						<p>By engaging your stakeholders – not just your ad agency and marketing teams – we look to create a culture where everyone feels comfortable contributing to content. Social media is the new way of marketing.</p>
+						<button type="button" class="btn btn-default">MEET OUR TEAM</button>
 					</div>
 				</div>
 			</div>
-	</div>
-
-	<div class="home6">	
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-xs-12">
-					<button type="button" class="btn btn-default">MEET OUR TEAM</button>
-				</div>
-			</div>
-		</div>		
 	</div>
 
 	<div class="home2">
 		<div class="home-text">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xs-12">
+					<div class="col-xs-12 col-sm-10">
 						<div class="home-text-container2">
 							<h2>SOCIAL MATRIX WILL PROVIDE THE MECHANISMS TO MOVE YOUR SOCIAL CONVERSATIONS TO CONVERSIONS.</h2>
 						</div>
@@ -62,7 +53,7 @@
 		<div class="home-text">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xs-12">
+					<div class="col-xs-12 col-sm-12">
 						<div class="home-text-container">
 							<img src="images/qamea.png" height="50px">
 							<img src="images/mp.png" height="50px">
@@ -79,7 +70,7 @@
 	<div class="home3">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xs-12">
+					<div class="col-xs-12 col-sm-12">
 						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
 							<ol class="carousel-indicators">
@@ -139,7 +130,7 @@
 		
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xs-12">
+					<div class="col-xs-12 col-sm-12">
 						
 							<div id="socialMatrix-map"></div>
 							<p><small>CONTACT@SOCIALMATRIX.NZ</small><p>

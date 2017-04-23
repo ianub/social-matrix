@@ -8,7 +8,7 @@
 		<div class="home-text">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xs-12">
+					<div class="col-xs-12 col-sm-10">
 						<div class="home-text-container">
 							<h1>OUR SERVICES</h1>
 						</div>
@@ -22,7 +22,7 @@
  <div class="services1">
 	<div class="container text-center">
 	<div class="row">
-		<div class="col-xs-12">
+		<div class="col-xs-12 col-sm-10">
 		       <div class="wrapper_bu">
 		           <div class="image">
                         <a class="panel-heading accordion-toggle collapsed left" data-toggle="collapse"
@@ -53,7 +53,7 @@
                 </div>
                 <div class="image">
                         <a class="panel-heading accordion-toggle collapsed left" data-toggle="collapse"
-                           data-parent="#accordion1,#accordion2,#accordion3,#accordion4,#accordion5" data-target="#collapseTwo">
+                           data-parent="#accordion1,#accordion2,#accordion3,#accordion4,#accordion5" data-target="#collapseFour">
                             <div id="bu4">
                                   <img alt="" src="https://s6.postimg.org/ek5rpg6i9/karachi.png" class="img-responsive imgtransform">
                                   <h5>CONTENT CULTURE</h5>
@@ -62,7 +62,7 @@
                  </div>
                  <div class="image">
                         <a class="panel-heading accordion-toggle collapsed left" data-toggle="collapse"
-                           data-parent="#accordion1,#accordion2,#accordion3,#accordion4,#accordion5" data-target="#collapseTwo">
+                           data-parent="#accordion1,#accordion2,#accordion3,#accordion4,#accordion5" data-target="#collapseFive">
                             <div id="bu5">
                                   <img alt="" src="https://s6.postimg.org/ek5rpg6i9/karachi.png" class="img-responsive imgtransform">
                                   <h5>CONTENT PRODUCTION</h5>
