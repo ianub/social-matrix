@@ -8,7 +8,7 @@
 		<div class="home-text">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xs-12 col-sm-10">
+					<div class="col-xs-12 col-sm-10 col-md-6">
 						<div class="home-text-container">
 							<h1>OUR SERVICES</h1>
 						</div>
@@ -22,13 +22,14 @@
  <div class="services1">
 	<div class="container text-center">
 	<div class="row">
-		<div class="col-xs-12 col-sm-10">
+		<div class="col-xs-12 col-sm-10 col-md-8">
 		       <div class="wrapper_bu">
 		           <div class="image">
                         <a class="panel-heading accordion-toggle collapsed left" data-toggle="collapse"
                            data-parent="#accordion1,#accordion2,#accordion3,#accordion4,#accordion5" data-target="#collapseOne">
                             <div id="bu1">
-                                  <img alt="" src="https://s6.postimg.org/ek5rpg6i9/karachi.png" class="img-responsive imgtransform">
+                                  <i class="fa fa-lightbulb-o fa-5x" aria-hidden="true"></i>
+                                  {{-- <img alt="" src="https://s6.postimg.org/ek5rpg6i9/karachi.png" class="img-responsive imgtransform"> --}}
                                   <h5>SOCIAL INSIGHT</h5>
                             </div>
                         </a>
@@ -37,7 +38,8 @@
                     <a class="panel-heading accordion-toggle collapsed left" data-toggle="collapse"
                        data-parent="#accordion1,#accordion2,#accordion3,#accordion4,#accordion5" data-target="#collapseTwo">
                         <div id="bu2">
-                            <img alt="" src="https://s6.postimg.org/kwgbljk6p/islamabad.png" class="img-responsive imgtransform">
+                            <i class="fa fa-commenting-o fa-5x" aria-hidden="true"></i>
+                            {{-- <img alt="" src="https://s6.postimg.org/kwgbljk6p/islamabad.png" class="img-responsive imgtransform"> --}}
                             <h5>SOCIAL SELLING</h5>
                         </div>
                     </a>
@@ -46,7 +48,8 @@
                     <a class="panel-heading accordion-toggle collapsed left " data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4,#accordion5"
                        data-target="#collapseThree">
                           <div id="bu3">
-                              <img alt="" src="https://s6.postimg.org/4wxo1zo4x/dubai.png" class="img-responsive imgtransform">
+                          <i class="fa fa-line-chart fa-5x" aria-hidden="true"></i>
+                              {{-- <img alt="" src="https://s6.postimg.org/4wxo1zo4x/dubai.png" class="img-responsive imgtransform"> --}}
                               <h5>AUDIENCE GROWTH</h5>
                           </div>
                     </a>
@@ -55,7 +58,8 @@
                         <a class="panel-heading accordion-toggle collapsed left" data-toggle="collapse"
                            data-parent="#accordion1,#accordion2,#accordion3,#accordion4,#accordion5" data-target="#collapseFour">
                             <div id="bu4">
-                                  <img alt="" src="https://s6.postimg.org/ek5rpg6i9/karachi.png" class="img-responsive imgtransform">
+                                  <i class="fa fa-folder-o fa-5x" aria-hidden="true"></i>
+                              {{-- <img alt="" src="https://s6.postimg.org/4wxo1zo4x/dubai.png" class="img-responsive imgtransform"> --}}
                                   <h5>CONTENT CULTURE</h5>
                             </div>
                         </a>
@@ -64,7 +68,8 @@
                         <a class="panel-heading accordion-toggle collapsed left" data-toggle="collapse"
                            data-parent="#accordion1,#accordion2,#accordion3,#accordion4,#accordion5" data-target="#collapseFive">
                             <div id="bu5">
-                                  <img alt="" src="https://s6.postimg.org/ek5rpg6i9/karachi.png" class="img-responsive imgtransform">
+                                  <i class="fa fa-pencil fa-5x" aria-hidden="true"></i>
+                              {{-- <img alt="" src="https://s6.postimg.org/4wxo1zo4x/dubai.png" class="img-responsive imgtransform"> --}}
                                   <h5>CONTENT PRODUCTION</h5>
                             </div>
                         </a>

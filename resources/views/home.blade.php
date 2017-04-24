@@ -8,7 +8,7 @@
 		<div class="home-text">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xs-12 col-sm-10">
+					<div class="col-xs-12 col-sm-10 col-md-6">
 						<div class="home-text-container">
 							<h1>THE BEST WAY TO SELL IS BY WORD OF MOUTH.<br>
 							SOCIAL MEDIA IS A PLATFORM TO CONNECT.<br>
@@ -24,10 +24,10 @@
 	<div class="home1">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xs-12 col-sm-10">
+					<div class="col-xs-12 col-sm-10 col-md-8">
 						<h3>SOCIAL MATRIX OFFERS A PLATFORM FROM WHICH TO REACH, CONNECT, ENGAGE, COMMUNICATE AND SELL.</h3>
-						<p>We specialise in, and are committed to, partnering our clients to engage with their defined audiences through social media.</p>
-						<p>Through specific interventions and growth, we connect you with your audience through various online platforms which your customers utilize every day.</p>
+						<p>We specialise in, and are committed to, partnering our clients to engage with their defined audiences through social media.
+						Through specific interventions and growth, we connect you with your audience through various online platforms which your customers utilize every day.</p>
 						<p>By engaging your stakeholders – not just your ad agency and marketing teams – we look to create a culture where everyone feels comfortable contributing to content. Social media is the new way of marketing.</p>
 						<button type="button" class="btn btn-default">MEET OUR TEAM</button>
 					</div>
@@ -39,7 +39,7 @@
 		<div class="home-text">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xs-12 col-sm-10">
+					<div class="col-xs-12 col-sm-10 col-md-6">
 						<div class="home-text-container2">
 							<h2>SOCIAL MATRIX WILL PROVIDE THE MECHANISMS TO MOVE YOUR SOCIAL CONVERSATIONS TO CONVERSIONS.</h2>
 						</div>
@@ -53,7 +53,7 @@
 		<div class="home-text">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xs-12 col-sm-12">
+					<div class="col-xs-12 col-sm-12 col-md-12">
 						<div class="home-text-container">
 							<img src="images/qamea.png" height="50px">
 							<img src="images/mp.png" height="50px">
@@ -70,7 +70,7 @@
 	<div class="home3">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xs-12 col-sm-12">
+					<div class="col-xs-12 col-sm-12 col-md-12">
 						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
 							<ol class="carousel-indicators">
@@ -88,22 +88,22 @@
 							        <p>What is the business capability, capacity, and commitment to social as a critical channel to market? The Social Insight is a health check that clearly maps the scope of your social media, go to market plan.</p>
 							    </div>
 							    <div class="item">
-							        <i class="fa fa-lightbulb-o fa-5x" aria-hidden="true"></i>
+							        <i class="fa fa-commenting-o fa-5x" aria-hidden="true"></i>
 							        <h3>SOCIAL SELLING</h3>
 							        <p>Customer don't engage with the seller until 70% of the buying process is complete, although they are willing to engage with salespeople, they don't want to be sold to, they want to learn. 76% of buyers are ready to have a social media conversation about their pending buying decision.</p>
 							    </div>
 							    <div class="item">
-							        <i class="fa fa-lightbulb-o fa-5x" aria-hidden="true"></i>
+							        <i class="fa fa-line-chart fa-5x" aria-hidden="true"></i>
 							        <h3>AUDIENCE GROWTH</h3>
 							        <p>Who, specifically is your target audience and on what social platforms do they use? Most importantly, are you connected to them? If not, we need to develop interventions to connect so that our social tactics are landing with the right people.</p>
 							    </div>
 							    <div class="item">
-							        <i class="fa fa-lightbulb-o fa-5x" aria-hidden="true"></i>
+							        <i class="fa fa-folder-o fa-5x" aria-hidden="true"></i>
 							        <h3>CONTENT CULTURE</h3>
 							        <p>It's not just marketing and the ad agency that can generate content, how do you create a culture where everyone feels comfortable contributing to the richness of our social media presence, employees, stakeholder, suppliers and importantly customers.</p>
 							    </div>
 							    <div class="item">
-							        <i class="fa fa-lightbulb-o fa-5x" aria-hidden="true"></i>
+							        <i class="fa fa-pencil fa-5x" aria-hidden="true"></i>
 							        <h3>CONTENT PRODUCTION</h3>
 							        <p>Generating persistent, provocative, engaging, video rich content that is grounded in the customer's world. Content that drives a conversation with your audience not a lecture gets better engagement.</p>
 							    </div>
@@ -130,7 +130,7 @@
 		
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xs-12 col-sm-12">
+					<div class="col-xs-12 col-sm-12 col-md-12">
 						
 							<div id="socialMatrix-map"></div>
 							<p><small>CONTACT@SOCIALMATRIX.NZ</small><p>

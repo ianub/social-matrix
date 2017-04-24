@@ -45,7 +45,7 @@
 
 	<footer>
 		<div class="footer-box container-fluid">
-			<div class="col-xs-12">
+			<div class="col-xs-12 col-sm-12 col-md-12">
 				<div>
 					<p>GET IN TOUCH</p>
 					<small><p>CONTACT@SOCIALMATRIX.NZ<p>
