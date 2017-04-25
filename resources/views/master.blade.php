@@ -53,10 +53,10 @@
 				</div>
 				<div class="footer-box2">
 					<div class="social-logo">
-						<a href="https://www.facebook.com/Socialmatrix.nz/"><img src="images/facebook.png"></a>
-						<a href="https://www.instagram.com/socialmatrixnz/"><img src="images/instagram.png"></a>
-						<a href="https://twitter.com/socialmatrix0"><img src="images/twitter.png"></a>
-						<a href="https://www.linkedin.com/start/join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fsocial-matrix&source=gf&trk=login_reg_redirect"><img src="images/linkedin.png"></a>
+						<a href="https://www.facebook.com/Socialmatrix.nz/"><img src="images/facebook.png" height="20px"></a>
+						<a href="https://www.instagram.com/socialmatrixnz/"><img src="images/instagram.png" height="20px"></a>
+						<a href="https://twitter.com/socialmatrix0"><img src="images/twitter.png" height="20px"></a>
+						<a href="https://www.linkedin.com/start/join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fsocial-matrix&source=gf&trk=login_reg_redirect"><img src="images/linkedin.png" height="20px"></a>
 					</div>
 					<div class="copyright">
 						<small><p>&copy; 2017 SOCIAL MATRIX ALL RIGHTS RESERVED</p></small>

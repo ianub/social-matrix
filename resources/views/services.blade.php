@@ -157,7 +157,19 @@
                                
                                 <div>
                                   <h1>CONTENT CULTURE</h1>
-                                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+                                  <p>What is the business capability, capacity, and commitment to social as a critical channel to market?  Our consulting services help your business clearly map your social media, go to market plan.</p>
+                                  <h3>Capability.</h3>
+                                  <p>Assessing stakeholder resources to capture content, do the stakeholders use smartphones, do they have access to computers, do they have access to email,  cameras or video?   Does the employee group have the propensity to write blogs or white papers, maybe they are natural behind a camera, what about in front of a camera?  Does the marketing department include content as part of its social strategy and have a bank of content available for use,  is their budget to create a creative production based on a strategic marketing goal, therefore access to an outsource resource,  maybe even insourced capability?</p>
+
+
+                                  <h3>Insight.</h3>
+                                  <p>Generating insight of how customers passively learn and actively research and therefore how we reach them when they are most impressionable.  How do the defined target audience access information and learn,  what is the data to validate how the customer is going to market and how they intend to utilise social media as a channel to market?</p>
+                                  Gaps.
+                                  Identifying missed opportunities and holes in the social sales process. Where are leads leaking?  What are the conversations happening on social media that marketers and salespeople are missing?  Do sales operate in a silo on the social sales process required to produce all content preventing them form having social conversations,  how can we leverage the resources of the whole team to ensure this is a social selling organisation?</p>
+
+
+                                  <h3>Commitment.</h3>
+                                  <p>Illustrating how an increase in channels and method can lead to an increase to the bottom line.  Highlight at what layers of the business do we need commitment,  it’s quite easy to have the aha moment as  a Sales Director “of course we need to have a social sales strategy”,  but is their commitment from the infield reps, or the CEO and therefore how can we ensure that any investment in the change is successful?</p>
                                 </div>
                             </div>
                         </div>

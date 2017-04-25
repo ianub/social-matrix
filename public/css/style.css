@@ -44,7 +44,7 @@ body {
 	margin: 100px 0 0 0;
 }
 .footer-box .social-logo a {
-	margin-right: 25px;
+	margin-right: 20px;
 }
 .footer-box2 .copyright {
 	text-align: center;
@@ -386,6 +386,9 @@ h5 {
 @media (min-width: @screen-md-min) { 
 	.contact {
 		height: 110vh;
+	}
+	.home4 button {
+		width: 50;
 	}
 }
 
