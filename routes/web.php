@@ -16,3 +16,4 @@ Route::get('/team', 	'TeamController@index');
 Route::get('/services', 'ServicesController@index');
 Route::get('/prices', 	'PricesController@index');
 Route::get('/contact', 	'ContactController@index');
+Route::get('/login', 	'LoginController@index');

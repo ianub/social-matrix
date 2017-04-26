@@ -19,7 +19,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
                     <span class="sr-only">Toggle navigation</span><i class="fa fa-bars fa-2x"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><img src="/images/smlogo.png"></a>
+                <a class="navbar-brand page-scroll" href="#page-top"><img src="/images/smlogow.png"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
