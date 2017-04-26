@@ -39,24 +39,22 @@
         <!-- /.container-fluid -->
     </nav>
 
-    
-
 	@yield('content')
 
 	<footer>
 		<div class="footer-box container-fluid">
-			<div class="col-xs-12 col-sm-12 col-md-12">
-				<div>
+			<div class="text-center">
+				<div class="fbox">
 					<p>GET IN TOUCH</p>
 					<small><p>CONTACT@SOCIALMATRIX.NZ<p>
 					<p>2/130 ORIENTAL PARADE, ORIENTAL BAY, <br>WELLINGTON, NEW ZEALAND 6011<br>+64 4 801 9022</p></small>
 				</div>
 				<div class="footer-box2">
 					<div class="social-logo">
-						<a href="https://www.facebook.com/Socialmatrix.nz/"><img src="images/facebook.png" height="20px"></a>
-						<a href="https://www.instagram.com/socialmatrixnz/"><img src="images/instagram.png" height="20px"></a>
-						<a href="https://twitter.com/socialmatrix0"><img src="images/twitter.png" height="20px"></a>
-						<a href="https://www.linkedin.com/start/join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fsocial-matrix&source=gf&trk=login_reg_redirect"><img src="images/linkedin.png" height="20px"></a>
+						<a href="https://www.facebook.com/Socialmatrix.nz/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+						<a href="https://www.instagram.com/socialmatrixnz/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+						<a href="https://twitter.com/socialmatrix0"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+						<a href="https://www.linkedin.com/"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
 					</div>
 					<div class="copyright">
 						<small><p>&copy; 2017 SOCIAL MATRIX ALL RIGHTS RESERVED</p></small>

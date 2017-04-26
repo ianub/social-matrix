@@ -8,7 +8,7 @@
 		<div class="home-text">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xs-12 col-sm-10 col-md-6">
+					<div class="text-center">
 						<div class="home-text-container">
 							<h1>THE BEST WAY TO SELL IS BY WORD OF MOUTH.<br>
 							SOCIAL MEDIA IS A PLATFORM TO CONNECT.<br>
@@ -22,9 +22,9 @@
 	</div>
 
 	<div class="home1">
-			<div class="container-fluid">
+			<div class="container">
 				<div class="row">
-					<div class="col-xs-12 col-sm-10 col-md-8">
+					<div class="col-sm-10 col-md-8 col-lg-6 col-sm-offset-1 col-md-offset-2 col-lg-offset-3 text-center">
 						<h3>SOCIAL MATRIX OFFERS A PLATFORM FROM WHICH TO REACH, CONNECT, ENGAGE, COMMUNICATE AND SELL.</h3>
 						<p>We specialise in, and are committed to, partnering our clients to engage with their defined audiences through social media.
 						Through specific interventions and growth, we connect you with your audience through various online platforms which your customers utilize every day.</p>
@@ -37,9 +37,9 @@
 
 	<div class="home2">
 		<div class="home-text">
-			<div class="container-fluid">
+			<div class="container">
 				<div class="row">
-					<div class="col-xs-12 col-sm-10 col-md-6">
+					<div class="col-lg-6 col-lg-offset-3 text-center">
 						<div class="home-text-container2">
 							<h2>SOCIAL MATRIX WILL PROVIDE THE MECHANISMS TO MOVE YOUR SOCIAL CONVERSATIONS TO CONVERSIONS.</h2>
 						</div>
@@ -50,10 +50,10 @@
 	</div>
 
 	<div class="home5">
-		<div class="home-text">
-			<div class="container-fluid">
+		
+			<div class="container">
 				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-12">
+					<div class="text-center">
 						<div class="home-text-container">
 							<img src="images/qamea.png" height="50px">
 							<img src="images/mp.png" height="50px">
@@ -64,13 +64,13 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		
 	</div>
 
 	<div class="home3">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-12">
+					<div class="col-lg-8 col-lg-offset-2 text-center">
 						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
 							<ol class="carousel-indicators">
@@ -126,11 +126,10 @@
 	</div>
 
 
-	<div class="home4">
-		
+	<div class="home4">		
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-10">
+					<div class="col-lg-10 col-lg-offset-1 text-center">
 						
 							<div id="socialMatrix-map"></div>
 							<p><small>CONTACT@SOCIALMATRIX.NZ</small><p>
@@ -141,18 +140,10 @@
 						
 					</div>
 				</div>
-			</div>
-		
+			</div>		
 	</div>
 
 
-<!-- 	</div>
-	<div class="home5">
-		<div id="socialMatrix-map"></div>
-		<p><small>CONTACT@SOCIALMATRIX.NZ</small><p>
-		<p><small>2/130 ORIENTAL PARADE, ORIENTAL BAY, <br>WELLINGTON, NEW ZEALAND 6011<br>+64 4 801 9022</small></p>
-		<button type="button" class="btn btn-default">CONTACT US</button>
-	</div>
- -->
+
  
 @endsection

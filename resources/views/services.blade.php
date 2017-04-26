@@ -8,7 +8,7 @@
 		<div class="home-text">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xs-12 col-sm-10 col-md-6">
+					<div class="text-center">
 						<div class="home-text-container">
 							<h1>OUR SERVICES</h1>
 						</div>
@@ -20,9 +20,9 @@
 
 
  <div class="services1">
-	<div class="container text-center">
+	<div class="container-fluid">
 	<div class="row">
-		<div class="col-xs-12 col-sm-10 col-md-8">
+		<div class="text-center">
 		       <div class="wrapper_bu">
 		           <div class="image">
                         <a class="panel-heading accordion-toggle collapsed left" data-toggle="collapse"
@@ -76,6 +76,7 @@
                  </div>
             </div>
             <div class="panel-group" id="accordion1">
+            <div class="col-md-8 col-lg-6 col-md-offset-2 col-lg-offset-3">
                     <div class="panel panel-default">
                         <div id="collapseOne" class="panel-collapse collapse">
                                 <div class="center-down-arrow">
@@ -203,6 +204,7 @@
                             </div>
                         </div>
                     </div>
+               </div>
                 </div>
 		</div>
 	</div>
