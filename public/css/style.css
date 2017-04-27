@@ -5,7 +5,11 @@
 body {
 	font-family: "avenir";
 	color: #f6f6f6;
-	background-color: #222;
+	background-image: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    /*background-color: #222;*/
 }
 p {
 	font-weight: 200;
@@ -72,6 +76,78 @@ a:hover {
 	background-color: transparent;
 }
 /* body */
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
+section {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+section::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	content: '';
+	width: 100%;
+	background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
+	background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
+}
+.demo a {
+	transition: opacity .3s;
+}
+.demo a:hover {
+	opacity: .5;
+}
+
+
+#section05 a {
+	padding-top: 70px;
+}
+#section05 a span {
+	position: absolute;
+	top: 30px;
+	width: 24px;
+	height: 24px;
+	margin-left: -12px;
+	border-left: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	-webkit-animation: sdb05 1.5s infinite;
+	animation: sdb05 1.5s infinite;
+	box-sizing: border-box;
+}
+@-webkit-keyframes sdb05 {
+	0% {
+		-webkit-transform: rotate(-45deg) translate(0, 0);
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		-webkit-transform: rotate(-45deg) translate(-20px, 20px);
+		opacity: 0;
+	}
+}
+@keyframes sdb05 {
+	0% {
+		transform: rotate(-45deg) translate(0, 0);
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		transform: rotate(-45deg) translate(-20px, 20px);
+		opacity: 0;
+	}
+}
+
+
+
+
+
+
 h1 {
 	margin-bottom: 40px;
 	text-align: center;
@@ -93,17 +169,19 @@ hr {
 	margin-top: 30px;
 	text-align: center;
 	padding: 15px 0px;
-	background-color: transparent;
+	background-color: rgba(192,192,192,0.1);
 	color: #f6f6f6;
 	font-weight: 400;
 	width: 80%;
 	border-radius: 0px;
 }
 .btn-default:hover {
-	border: none;
+	
+	background-color: rgba(192,192,192,0.2);
+	color: #f6f6f6;
 }
 .home {
-	background-image: url('../images/planimg.jpg');
+	/*background-image: url('../images/planimg.jpg');*/
 	width: 100%;
 	height: 100vh;
 	background-position: center;
@@ -197,7 +275,6 @@ hr {
 }
 .team1 {
 	padding: 60px 30px;
-	background-color: #222;
 }
 .team1 a:hover
 {
@@ -222,7 +299,6 @@ hr {
 }
 .services1 {
 	padding: 60px 30px;
-	background-color: #222;
 }
 .services1 a:hover
 {
@@ -353,6 +429,7 @@ hr {
 }
 .prices1 {
 	padding: 60px 30px;
+	background-color: #222;
 }
 .prices2 {
 	padding: 60px 30px;
@@ -378,7 +455,6 @@ hr {
 	background-size: 1920px;
 }
 .contact1 {
-	background-color: #222;
 	padding: 60px 30px;
 }
 .contact1 p {
@@ -391,6 +467,29 @@ hr {
 .pricesbox h1 {
 	margin-bottom: 20px;
 	font-size: 4em;
+}
+/*login */
+
+.login {
+	background-image: url('../images/oceanimg.jpg');
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-position-x: 65%;
+	background-repeat: no-repeat;
+	display: table;
+	position: relative;
+	padding: 60px 30px;
+	background-size: 1920px;
+}
+.login .container {
+	display: table-cell;
+    vertical-align: middle;
+}
+.login form {
+	background-color: rgba(246,246,246,0.1);
+	padding: 60px 10px;
+	color: #222;
 }
 
 /* media queries */
