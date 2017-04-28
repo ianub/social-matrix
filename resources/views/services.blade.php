@@ -85,7 +85,7 @@
                             <div class="panel-body">
                                 
                                 <div>
-                                  <h1>SOCIAL INSIGHT</h1>
+                                  <h2>SOCIAL INSIGHT</h2>
                                   <h4>What is the business capability, capacity, and commitment to social as a critical channel to market?  Our consulting services help your business clearly map your social media, go to market plan.</h4>
                                   <span></span>
                                   <h4>Capability.</h4>
@@ -113,7 +113,7 @@
                             <div class="panel-body">
                               
                                 <div>
-                                  <h1>SOCIAL SELLING</h1>
+                                  <h2>SOCIAL SELLING</h2>
 
                                   <h4>Customers generally engage with the seller when 70% of the buying process is complete. Although they are willing to engage with a salesperson, they don’t want to be sold to – customers want to learn. 76% of buyers are willing to have a social media conversation about their pending buying decision.</h4>
                                   <h4>People.</h4>
@@ -134,7 +134,7 @@
                        <div class="panel-body">
                                 
                                 <div>
-                                  <h1>AUDIENCE GROWTH</h1>
+                                  <h2>AUDIENCE GROWTH</h2>
                                   <h4>Who, specifically, is your target audience and on what social platforms do they use?  Most importantly, are you connected to them?  If not, we need to develop interventions to connect so that our social tactics are landing with the right people.</h4>
                                   <h4>Target Audience.</h4>
                                   <p>Who are your customers your audience, what inspires them, what troubles them, what excites them, where do they live, work or play and importantly how do they consume information?</p>
@@ -160,7 +160,7 @@
                        <div class="panel-body">
                                
                                 <div>
-                                  <h1>CONTENT CULTURE</h1>
+                                  <h2>CONTENT CULTURE</h2>
                                   <h4>What is the business capability, capacity, and commitment to social as a critical channel to market?  Our consulting services help your business clearly map your social media, go to market plan.</h4>
                                   <h4>Capability.</h4>
                                   <p>Assessing stakeholder resources to capture content, do the stakeholders use smartphones, do they have access to computers, do they have access to email,  cameras or video?   Does the employee group have the propensity to write blogs or white papers, maybe they are natural behind a camera, what about in front of a camera?  Does the marketing department include content as part of its social strategy and have a bank of content available for use,  is their budget to create a creative production based on a strategic marketing goal, therefore access to an outsource resource,  maybe even insourced capability?</p>
@@ -186,7 +186,7 @@
                        <div class="panel-body">
                                 
                                 <div>
-                                  <h1>CONTENT PRODUCTION</h1>
+                                  <h2>CONTENT PRODUCTION</h2>
                                   <h4>Generating persistent, provocative, engaging, video rich content that is grounded in the customer’s world.  Content that drives a conversation with your audience, not a lecture, gets better engagement.</h4>
  
                                   <h4>Content culture.</h4>

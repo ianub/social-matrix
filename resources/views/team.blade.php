@@ -119,7 +119,7 @@
                             <div class="panel-body">
                                 
                                 <div>
-                                  <h1>JOSH BORGIA</h1>
+                                  <h2>JOSH BORGIA</h2>
                                   <p>Josh Borgia is a career salesperson with vast experience from leading large corporate sales organisations through to carrying the sales kit himself for smaller startup businesses. Josh embraces the social media channel as a selling opportunity, and is excited about engaging with customer’s pre, during and post buying experience.</p>
                                 </div>
                             </div>
@@ -133,7 +133,7 @@
                             <div class="panel-body">
                               
                                 <div>
-                                  <h1>HASSAN DIA</h1>
+                                  <h2>HASSAN DIA</h2>
                                   <p>With a distinguished background in selling FMCG and Internet and Charity, Hassan Dia has sold through all mediums of distribution, including call centers, field, and contact centers. As a Social Media Consultant throughout the media, design, hospitality and technology industries, Hassan has recently harnessed the opportunity to sell through social media, and is currently helping businesses grow their audiences through social campaigns and sellable content.</p>
                                 </div>
                             </div>
@@ -147,7 +147,7 @@
                        <div class="panel-body">
                                 
                                 <div>
-                                  <h1>JOSH BORGIA</h1>
+                                  <h2>JOSH BORGIA</h2>
                                   <p>Josh Borgia is a career salesperson with vast experience from leading large corporate sales organisations through to carrying the sales kit himself for smaller startup businesses. Josh embraces the social media channel as a selling opportunity, and is excited about engaging with customer’s pre, during and post buying experience.</p>
                                 </div>
                             </div>
@@ -161,7 +161,7 @@
                        <div class="panel-body">
                                
                                 <div>
-                                  <h1>JOSH BORGIA</h1>
+                                  <h2>JOSH BORGIA</h2>
                                   <p>Josh Borgia is a career salesperson with vast experience from leading large corporate sales organisations through to carrying the sales kit himself for smaller startup businesses. Josh embraces the social media channel as a selling opportunity, and is excited about engaging with customer’s pre, during and post buying experience.</p>
                                 </div>
                             </div>
@@ -175,7 +175,7 @@
                        <div class="panel-body">
                                 
                                 <div>
-                                  <h1>JOSH BORGIA</h1>
+                                  <h2>JOSH BORGIA</h2>
                                   <p>Josh Borgia is a career salesperson with vast experience from leading large corporate sales organisations through to carrying the sales kit himself for smaller startup businesses. Josh embraces the social media channel as a selling opportunity, and is excited about engaging with customer’s pre, during and post buying experience.</p>
                                 </div>
                             </div>
@@ -189,7 +189,7 @@
                        <div class="panel-body">
                                 
                                 <div>
-                                  <h1>JOSH BORGIA</h1>
+                                  <h2>JOSH BORGIA</h2>
                                   <p>Josh Borgia is a career salesperson with vast experience from leading large corporate sales organisations through to carrying the sales kit himself for smaller startup businesses. Josh embraces the social media channel as a selling opportunity, and is excited about engaging with customer’s pre, during and post buying experience.</p>
                                 </div>
                             </div>

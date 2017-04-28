@@ -11,9 +11,9 @@
 					<div class="text-center">
 						<div class="home-text-container">
 							<img src="images/smlogows.png">
-							<h1>THE BEST WAY TO SELL IS BY WORD OF MOUTH.<br>
+							<h2>THE BEST WAY TO SELL IS BY WORD OF MOUTH.<br>
 							SOCIAL MEDIA IS A PLATFORM TO CONNECT.<br>
-							PEOPLE TRUST PEOPLE.</h1>
+							PEOPLE TRUST PEOPLE.</h2>
 
 							
 							<section id="section05" class="demo">
@@ -47,7 +47,7 @@
 				<div class="row">
 					<div class="col-lg-8 col-lg-offset-2 text-center">
 						<div class="home-text-container2">
-							<h1>SOCIAL MATRIX WILL PROVIDE THE MECHANISMS TO MOVE YOUR SOCIAL CONVERSATIONS TO CONVERSIONS.</h1>
+							<h2>SOCIAL MATRIX WILL PROVIDE THE MECHANISMS TO MOVE YOUR SOCIAL CONVERSATIONS TO CONVERSIONS.</h2>
 						</div>
 					</div>
 				</div>
