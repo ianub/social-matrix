@@ -1,5 +1,7 @@
 @extends('master')
 
+@section('title', 'Social Matrix | Log In')
+
 @section('content')
 
 
@@ -15,7 +17,7 @@
                             <form class="form-horizontal" role="form" method="POST" action="{{ route('login') }}">
                                 {{ csrf_field() }}
 
-                                <h1>LOGIN</h1>
+                                <h1>LOG IN</h1>
 
                                 <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
                                     <label for="email" class="col-md-4 control-label">E-Mail Address</label>

@@ -1,5 +1,7 @@
 @extends('master')
 
+@section('title', 'Social Matrix | Register')
+
 @section('content')
 
 <div class="login">

@@ -27,7 +27,7 @@
 		</div>
 	</div>
 
-	<div class="home1">
+	<div class="home1" id="home1">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-10 col-md-8 col-lg-6 col-sm-offset-1 col-md-offset-2 col-lg-offset-3 text-center">
@@ -35,7 +35,7 @@
 						<p>We specialise in, and are committed to, partnering our clients to engage with their defined audiences through social media.
 						Through specific interventions and growth, we connect you with your audience through various online platforms which your customers utilize every day.</p>
 						<p>By engaging your stakeholders – not just your ad agency and marketing teams – we look to create a culture where everyone feels comfortable contributing to content. Social media is the new way of marketing.</p>
-						<button type="button" class="btn btn-default">MEET OUR TEAM</button>
+						<button type="button" class="btn btn-default"><a href="{{ url('/team') }}">MEET OUR TEAM</a></button>
 					</div>
 				</div>
 			</div>
@@ -115,7 +115,7 @@
 							    </div>
 							   </div>
 
-						      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+						     	<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
 							      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 							      <span class="sr-only">Previous</span>
 							    </a>
@@ -142,7 +142,7 @@
 							<p><small>2/130 ORIENTAL PARADE, ORIENTAL BAY, <br>
 							WELLINGTON, NEW ZEALAND 6011<br>
 							+64 4 801 9022</small></p>
-							<button type="button" class="btn btn-default">CONTACT US</button>
+							<button type="button" class="btn btn-default"><a href="{{ url('/contact') }}">CONTACT US</a></button>
 						
 					</div>
 				</div>

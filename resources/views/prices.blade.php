@@ -69,7 +69,7 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="text-center">
-					<button type="button" class="btn btn-default">CONTACT US</button>
+					<button type="button" class="btn btn-default"><a href="{{ url('/contact') }}">CONTACT US</a></button>
 				</div>
 			</div>
 		</div>		

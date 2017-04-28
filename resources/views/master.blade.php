@@ -19,7 +19,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
                     <span class="sr-only">Toggle navigation</span><i class="fa fa-bars fa-2x"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><img src="/images/smlogow.png"></a>
+                <a class="navbar-brand page-scroll" href="{{ url('/home') }}"><img src="/images/smlogow.png"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -30,8 +30,6 @@
 					<li><a href="{{ url('/services') }}">SERVICES</a></li>
 					<li><a href="{{ url('/prices') }}">PRICES</a></li>
 					<li><a href="{{ url('/contact') }}">CONTACT</a></li>
-					<!-- <li><a href="{{ url('/login') }}">LOGIN</a></li>
-					<li><a href="{{ url('/register') }}">REGISTER</a></li> -->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -46,8 +44,13 @@
 			<div class="text-center">
 				<div class="fbox">
 					<p>GET IN TOUCH</p>
-					<small><p>CONTACT@SOCIALMATRIX.NZ<p>
-					<p>2/130 ORIENTAL PARADE, ORIENTAL BAY, <br>WELLINGTON, NEW ZEALAND 6011<br>+64 4 801 9022</p></small>
+					<p><small>CONTACT@SOCIALMATRIX.NZ<p>
+					<p>2/130 ORIENTAL PARADE, ORIENTAL BAY, <br>WELLINGTON, NEW ZEALAND 6011<br>+64 4 801 9022</small></p>
+					<div class="flogreg">
+						<i class="fa fa-user-circle fa-1x" aria-hidden="true"></i>
+						<a href="{{ url('/login') }}"><small>LOG IN AS ADMIN</small></a>
+						<a href="{{ url('/register') }}"><small>REGISTER</small></a>
+					</div>
 				</div>
 				<div class="footer-box2">
 					<div class="social-logo">
