@@ -230,6 +230,7 @@ hr {
 	position: relative;
 	padding: 60px 30px;
 	background-size: 1920px;
+    background-attachment: fixed;
 }
 .home-text-container2 {
 	bottom: 100px;
@@ -288,6 +289,7 @@ hr {
 	position: relative;
 	padding: 60px 30px;
 	background-size: 1920px;
+	background-attachment: fixed;
 }
 .team1 {
 	padding: 60px 30px;
@@ -312,6 +314,7 @@ hr {
 	position: relative;
 	padding: 60px 30px;
 	background-size: 1920px;
+	background-attachment: fixed;
 }
 .services1 {
 	padding: 60px 30px;
@@ -447,6 +450,7 @@ hr {
 	position: relative;
 	padding: 60px 30px;
 	background-size: 1920px;
+	background-attachment: fixed;
 }
 .prices1 {
 	padding: 60px 30px;
@@ -474,6 +478,7 @@ hr {
 	position: relative;
 	padding: 60px 30px;
 	background-size: 1920px;
+	background-attachment: fixed;
 }
 .contact1 {
 	padding: 60px 30px;
