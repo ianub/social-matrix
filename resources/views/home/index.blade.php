@@ -17,7 +17,7 @@
 
 							
 							<section id="section05" class="demo">
-								<a href="#home1"><span></span><h4>WHO WE ARE</h4></a>
+								<a href="#home1" class="btn btn-primary page-scroll"><span></span><h4>WHO WE ARE</h4></a>
 							</section>
 
 						</div>
@@ -148,6 +148,7 @@
 				</div>
 			</div>		
 	</div>
+
 
 
 

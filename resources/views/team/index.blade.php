@@ -42,6 +42,8 @@
 		</div>
 	</div>
 
+  <h1>{{ $product->name }}</h1>
+
 	<div class="team1">
 	<div class="container-fluid">
 	<div class="row">
