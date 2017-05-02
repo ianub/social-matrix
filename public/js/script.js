@@ -1,5 +1,7 @@
 // Carousel
 
+
+
 $(".carousel").swipe({
 
   swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
@@ -81,7 +83,9 @@ $(function() {
     });
 });
 
-// home button scroll
+
+
+
 
 
 

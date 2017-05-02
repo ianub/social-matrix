@@ -41,24 +41,25 @@
 			</div>
 		</div>
 	</div>
-
-  <h1>{{ $product->name }}</h1>
-
+  
 	<div class="team1">
 	<div class="container-fluid">
 	<div class="row">
 		<div class="text-center">
 		       <div class="wrapper_bu">
+              @foreach($allTeam as $member)
 		           <div class="image">
                         <a class="panel-heading accordion-toggle collapsed left" data-toggle="collapse"
                            data-parent="#accordion1,#accordion2,#accordion3,#accordion4,#accordion5,#accordion6" data-target="#collapseOne">
                             <div id="bu1">
-                                  <img src="images/josh.jpg" height="200px">
-                                  <h4>JOSH BORGIA</h4>
-                                  <h5>POSITION</h5>
+                                  <img src="{{$member->image}}" height="200px">
+                                  <h4>{{$member->first_name}} {{$member->last_name}}</h4><br>
+                                  <h5>{{$member->position}}</h5>
+
                             </div>
                         </a>
                  </div>
+                 @endforeach
                  <div class="image">
                     <a class="panel-heading accordion-toggle collapsed left" data-toggle="collapse"
                        data-parent="#accordion1,#accordion2,#accordion3,#accordion4,#accordion5,#accordion6" data-target="#collapseTwo">
@@ -113,7 +114,7 @@
             <div class="panel-group col-md-8 col-lg-6 col-md-offset-2 col-lg-offset-3" id="accordion1">
              
                     <div class="panel panel-default">
-                   
+                        @foreach($allTeam as $member)
                         <div id="collapseOne" class="panel-collapse collapse">
                                 <div class="center-down-arrow">
                                     <img src="https://s6.postimg.org/50w2vzj01/slider_down_Arrow.png">
@@ -121,11 +122,13 @@
                             <div class="panel-body">
                                 
                                 <div>
-                                  <h2>JOSH BORGIA</h2>
-                                  <p>Josh Borgia is a career salesperson with vast experience from leading large corporate sales organisations through to carrying the sales kit himself for smaller startup businesses. Josh embraces the social media channel as a selling opportunity, and is excited about engaging with customer’s pre, during and post buying experience.</p>
+                                  <h2>{{$member->first_name}} {{$member->last_name}}</h2>
+                                  <p>{{$member->description}}</p>
                                 </div>
+                                
                             </div>
                         </div>
+                        @endforeach
                     </div>
                     <div class="panel panel-default">
                         <div id="collapseTwo" class="panel-collapse collapse in">

@@ -67,17 +67,42 @@
 		</div>
 	</footer>
 
-	<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAPk2cb6nhsAbWyEOi7hnHBjxDmDZflFs&callback=initMap">
-    </script>
+	
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="js/bootstrap.js" type="text/javascript"></script>
 	<script src="js/bootstrap.min.js" type="text/javascript"></script>
-	
-	
     <script src="js/script.js"  type="text/javascript"></script>
     <script src="js/socialMatrix-map.js" type="text/javascript"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAPk2cb6nhsAbWyEOi7hnHBjxDmDZflFs&callback=initMap">
+    </script>
+    <script type="text/javascript">
+	            $(document).ready(function(){
+              // Add smooth scrolling to all links
+              $(".page-scroll").on('click', function(event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                  // Prevent default anchor click behavior
+                  event.preventDefault();
+
+                  // Store hash
+                  var hash = this.hash;
+
+                  // Using jQuery's animate() method to add smooth page scroll
+                  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                  $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                  }, 800, function(){
+               
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                  });
+                } // End if
+              });
+            });
+</script>
     
 </body>
 </html>

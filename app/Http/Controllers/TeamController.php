@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Team;
+use App\Teams;
 
 class TeamController extends Controller
 {
@@ -16,9 +16,13 @@ class TeamController extends Controller
     {
  
         // Get most popular team
-        $allTeam = Team::all();
+        $allTeam = Teams::all();
         // Show the most popular team
         return view('team.index', compact('allTeam'));
+
+    
+        // return view ('team.index');
+    
     
     }
 
