@@ -8,11 +8,19 @@
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
 	<!-- font awesome -->
 	<script src="https://use.fontawesome.com/8f9516a9ab.js"></script>
+{{-- 	<style type="text/css">
+		.navbar-fixed-bottom, .navbar-fixed-top {
+		    position: fixed;
+		    right: 0 !important; 
+		    /*left: 0;  */
+		    z-index: 1030;
+		}
+	</style> --}}
 
 </head>
 <body>
 
-	<nav id="mainNav" class="navbar navbar-default navbar-fixed-top affix-top">
+	{{-- <nav id="mainNav" class="navbar navbar-default navbar-fixed-top affix-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -22,7 +30,7 @@
                 <a class="navbar-brand page-scroll" href="{{ url('/home') }}"><img src="/images/smlogow.png"></a>
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
+            Collect the nav links, forms, and other content for toggling
             <div class="navbar-collapse collapse in" id="bs-example-navbar-collapse-1" aria-expanded="true">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="{{ url('/home') }}">HOME</a></li>
@@ -35,7 +43,40 @@
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
-    </nav>
+    </nav> --}}
+
+
+	<div id="wrapper">
+        <div class="overlay"></div>
+    
+        <!-- Sidebar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+
+            <ul class="nav sidebar-nav">
+
+                <li><a href="{{ url('/home') }}">HOME</a></li>
+                <li><a href="{{ url('/team') }}">TEAM</a></li>
+				<li><a href="{{ url('/services') }}">SERVICES</a></li>
+				<li><a href="{{ url('/prices') }}">PRICES</a></li>
+				<li><a href="{{ url('/contact') }}">CONTACT</a></li>
+			</ul>
+        </nav>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        	<div id="page-content-wrapper">
+
+        		<a class="logo" href="{{ url('/home') }}"><img src="/images/smlogow.png" height="70px"></a>
+
+	            <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+	                <span class="hamb-top"></span>
+	    			<span class="hamb-middle"></span>
+					<span class="hamb-bottom"></span>
+	            </button>
+            </div>
+
+
+
 
 	@yield('content')
 
@@ -102,7 +143,7 @@
                 } // End if
               });
             });
-</script>
+	</script>
     
 </body>
 </html>

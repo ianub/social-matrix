@@ -1,87 +1,100 @@
-// Carousel
+// $(".carousel").swipe({
 
+//   swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
 
+//     if (direction == 'left') $(this).carousel('next');
+//     if (direction == 'right') $(this).carousel('prev');
 
-$(".carousel").swipe({
+//   },
+//   allowPageScroll:"vertical"
 
-  swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
+// });
 
-    if (direction == 'left') $(this).carousel('next');
-    if (direction == 'right') $(this).carousel('prev');
+// // TOGGLE
 
-  },
-  allowPageScroll:"vertical"
+// var Conclave = (function () {
+//     var buArr = [], arlen;
+//     return {
+//         init: function () {
+//             this.addCN(); this.clickReg();
+//         },
+//         addCN: function () {
+//             var buarr = ["holder_bu_center", "holder_bu_awayL1", "holder_bu_awayL2", "holder_bu_awayR1", "holder_bu_awayR2"];
+//             for (var i = 1; i <= buarr.length; ++i) {
+//                 $("#bu" + i).removeClass().addClass(buarr[i - 1] + " holder_bu");
+//             }
+//         },
+//         clickReg: function () {
+//             $(".holder_bu").each(function () {
+//                 buArr.push($(this).attr('class'))
+//             });
+//             arlen = buArr.length;
+//             for (var i = 0; i < arlen; ++i) {
+//                 buArr[i] = buArr[i].replace(" holder_bu", "")
+//             }
+//             $(".holder_bu").click(function (buid) {
+//                 var me = this, id = this.id || buid, joId = $("#" + id), joCN = joId.attr("class").replace(" holder_bu", "");
+//                 var cpos = buArr.indexOf(joCN), mpos = buArr.indexOf("holder_bu_center");
+//                 if (cpos != mpos) {
+//                     tomove = cpos > mpos ? arlen - cpos + mpos : mpos - cpos;
+//                     while (tomove) {
+//                         var t = buArr.shift();
+//                         buArr.push(t);
+//                         for (var i = 1; i <= arlen; ++i) {
+//                             $("#bu" + i).removeClass().addClass(buArr[i - 1] + " holder_bu");
+//                         }
+//                         --tomove;
+//                     }
+//                 }
+//             })
+//         },
+//         auto: function () {
+//             for (i = 1; i <= 1; ++i) {
+//                 $(".holder_bu").delay(4000).trigger('click', "bu" + i).delay(4000);
+//                 console.log("called");
+//             }
+//         }
+//     };
+// })();
 
-});
+// $(document).ready(function () {
+//     window['conclave'] = Conclave;
+//     Conclave.init();
+// });
 
-// HAMBURGER 
-
-$(document).ready(function () {
-			  $(".navbar-toggle").on("click", function () {
-				    $(this).toggleClass("active");
-			  });
-		});
-
-// TOGGLE
-
-var Conclave = (function () {
-    var buArr = [], arlen;
-    return {
-        init: function () {
-            this.addCN(); this.clickReg();
-        },
-        addCN: function () {
-            var buarr = ["holder_bu_center", "holder_bu_awayL1", "holder_bu_awayL2", "holder_bu_awayR1", "holder_bu_awayR2"];
-            for (var i = 1; i <= buarr.length; ++i) {
-                $("#bu" + i).removeClass().addClass(buarr[i - 1] + " holder_bu");
-            }
-        },
-        clickReg: function () {
-            $(".holder_bu").each(function () {
-                buArr.push($(this).attr('class'))
-            });
-            arlen = buArr.length;
-            for (var i = 0; i < arlen; ++i) {
-                buArr[i] = buArr[i].replace(" holder_bu", "")
-            }
-            $(".holder_bu").click(function (buid) {
-                var me = this, id = this.id || buid, joId = $("#" + id), joCN = joId.attr("class").replace(" holder_bu", "");
-                var cpos = buArr.indexOf(joCN), mpos = buArr.indexOf("holder_bu_center");
-                if (cpos != mpos) {
-                    tomove = cpos > mpos ? arlen - cpos + mpos : mpos - cpos;
-                    while (tomove) {
-                        var t = buArr.shift();
-                        buArr.push(t);
-                        for (var i = 1; i <= arlen; ++i) {
-                            $("#bu" + i).removeClass().addClass(buArr[i - 1] + " holder_bu");
-                        }
-                        --tomove;
-                    }
-                }
-            })
-        },
-        auto: function () {
-            for (i = 1; i <= 1; ++i) {
-                $(".holder_bu").delay(4000).trigger('click', "bu" + i).delay(4000);
-                console.log("called");
-            }
-        }
-    };
-})();
+// hamburger
 
 $(document).ready(function () {
-    window['conclave'] = Conclave;
-    Conclave.init();
-});
+  var trigger = $('.hamburger'),
+      overlay = $('.overlay'),
+     isClosed = false;
 
-//  scroll
-
-$(function() {
-    $('a[href*=#]').on('click', function(e) {
-        e.preventDefault();
-        $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+    trigger.click(function () {
+      hamburger_cross();      
     });
+
+    function hamburger_cross() {
+
+      if (isClosed == true) {          
+        overlay.hide();
+        trigger.removeClass('is-open');
+        trigger.addClass('is-closed');
+        isClosed = false;
+      } else {   
+        overlay.show();
+        trigger.removeClass('is-closed');
+        trigger.addClass('is-open');
+        isClosed = true;
+      }
+  }
+  
+  $('[data-toggle="offcanvas"]').click(function () {
+        $('#wrapper').toggleClass('toggled');
+  });  
 });
+    
+
+
 
 
 
