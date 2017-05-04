@@ -686,6 +686,9 @@ hr {
 .wrapper_bu {
     text-align: center;
 }
+.bu1:hover {
+	opacity: 0.6;
+}
 
 .panel-default {
     border: none;
@@ -798,6 +801,9 @@ hr {
 	background-color: rgba(246,246,246,0.1);
 	padding: 60px 10px;
 	color: #222;
+}
+.createteam {
+	margin-bottom: 20px;
 }
 
 /* media queries */

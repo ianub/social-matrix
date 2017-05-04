@@ -13,6 +13,11 @@
 Route::get('/', 	 	'HomeController@index');
 Route::get('/home', 	'HomeController@index');
 Route::get('/team', 	'TeamController@index');
+Route::get('/team/create', 'TeamController@create');
+Route::post('/team/store', 'TeamController@store');
+
+
+
 Route::get('/services', 'ServicesController@index');
 Route::get('/prices', 	'PricesController@index');
 Route::get('/contact', 	'ContactController@index');

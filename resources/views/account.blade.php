@@ -1,6 +1,6 @@
 @extends('master')
 
-@section('title', 'Social Matrix | Home')
+@section('title', 'Social Matrix | Account')
 
 @section('content')
 

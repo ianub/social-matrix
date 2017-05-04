@@ -31,10 +31,13 @@ class TeamController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
     public function create()
     {
-        //
+        // Get all the categories to show on the form
+        return view('team.create');
     }
+    
 
     /**
      * Store a newly created resource in storage.

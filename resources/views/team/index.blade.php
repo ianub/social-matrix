@@ -47,10 +47,15 @@
 	<div class="row">
 		<div class="text-center">
 		       <div class="wrapper_bu">
+            <div class="createteam">
+              @if(Auth::check())
+              <a href="/team/create">ADD MEMBER</a>
+              @endif
+            </div>
               @foreach($allTeam as $member)
 		           <div class="image">
                         <a class="panel-heading accordion-toggle collapsed left" data-toggle="collapse"
-                           data-parent="#accordion1,#accordion2,#accordion3,#accordion4,#accordion5,#accordion6" data-target="#collapseOne">
+                           data-parent="#accordion1,#accordion2,#accordion3,#accordion4,#accordion5,#accordion6" data-target="#{{$member->id}}">
                             <div id="bu1">
                                   <img src="{{$member->image}}" height="200px">
                                   <h4>{{$member->first_name}} {{$member->last_name}}</h4><br>
@@ -60,7 +65,7 @@
                         </a>
                  </div>
                  @endforeach
-                 <div class="image">
+                 {{-- <div class="image">
                     <a class="panel-heading accordion-toggle collapsed left" data-toggle="collapse"
                        data-parent="#accordion1,#accordion2,#accordion3,#accordion4,#accordion5,#accordion6" data-target="#collapseTwo">
                         <div id="bu2">
@@ -109,13 +114,14 @@
                                   <h5>POSITION</h5>
                             </div>
                         </a>
-                 </div>
+                 </div> --}}
             </div>
+
             <div class="panel-group col-md-8 col-lg-6 col-md-offset-2 col-lg-offset-3" id="accordion1">
              
                     <div class="panel panel-default">
                         @foreach($allTeam as $member)
-                        <div id="collapseOne" class="panel-collapse collapse">
+                        <div id="{{$member->id}}" class="panel-collapse collapse">
                                 <div class="center-down-arrow">
                                     <img src="https://s6.postimg.org/50w2vzj01/slider_down_Arrow.png">
                                 </div>
@@ -130,84 +136,15 @@
                         </div>
                         @endforeach
                     </div>
-                    <div class="panel panel-default">
-                        <div id="collapseTwo" class="panel-collapse collapse in">
-                        <div class="center-down-arrow">
-                                    <img src="https://s6.postimg.org/50w2vzj01/slider_down_Arrow.png">
-                                </div>
-                            <div class="panel-body">
-                              
-                                <div>
-                                  <h2>HASSAN DIA</h2>
-                                  <p>With a distinguished background in selling FMCG and Internet and Charity, Hassan Dia has sold through all mediums of distribution, including call centers, field, and contact centers. As a Social Media Consultant throughout the media, design, hospitality and technology industries, Hassan has recently harnessed the opportunity to sell through social media, and is currently helping businesses grow their audiences through social campaigns and sellable content.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div id="collapseThree" class="panel-collapse collapse">
-                        <div class="center-down-arrow">
-                                    <img src="https://s6.postimg.org/50w2vzj01/slider_down_Arrow.png">
-                                </div>
-                       <div class="panel-body">
-                                
-                                <div>
-                                  <h2>JOSH BORGIA</h2>
-                                  <p>Josh Borgia is a career salesperson with vast experience from leading large corporate sales organisations through to carrying the sales kit himself for smaller startup businesses. Josh embraces the social media channel as a selling opportunity, and is excited about engaging with customer’s pre, during and post buying experience.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div id="collapseFour" class="panel-collapse collapse">
-                        <div class="center-down-arrow">
-                                    <img src="https://s6.postimg.org/50w2vzj01/slider_down_Arrow.png">
-                                </div>
-                       <div class="panel-body">
-                               
-                                <div>
-                                  <h2>JOSH BORGIA</h2>
-                                  <p>Josh Borgia is a career salesperson with vast experience from leading large corporate sales organisations through to carrying the sales kit himself for smaller startup businesses. Josh embraces the social media channel as a selling opportunity, and is excited about engaging with customer’s pre, during and post buying experience.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div id="collapseFive" class="panel-collapse collapse">
-                        <div class="center-down-arrow">
-                                    <img src="https://s6.postimg.org/50w2vzj01/slider_down_Arrow.png">
-                                </div>
-                       <div class="panel-body">
-                                
-                                <div>
-                                  <h2>JOSH BORGIA</h2>
-                                  <p>Josh Borgia is a career salesperson with vast experience from leading large corporate sales organisations through to carrying the sales kit himself for smaller startup businesses. Josh embraces the social media channel as a selling opportunity, and is excited about engaging with customer’s pre, during and post buying experience.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div id="collapseSix" class="panel-collapse collapse">
-                        <div class="center-down-arrow">
-                                    <img src="https://s6.postimg.org/50w2vzj01/slider_down_Arrow.png">
-                                </div>
-                       <div class="panel-body">
-                                
-                                <div>
-                                  <h2>JOSH BORGIA</h2>
-                                  <p>Josh Borgia is a career salesperson with vast experience from leading large corporate sales organisations through to carrying the sales kit himself for smaller startup businesses. Josh embraces the social media channel as a selling opportunity, and is excited about engaging with customer’s pre, during and post buying experience.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
                   </div>
+
+            
+
           
 		</div>
 	</div>
 </div>
 </div>
-
-	
-
 
 @endsection
