@@ -35,7 +35,8 @@ class TeamController extends Controller
     public function create()
     {
         // Get all the categories to show on the form
-        return view('team.create');
+        $allTeam = Teams::pluck('id', 'image', 'first_name', 'last_name', 'position', 'description');
+        return view('team.create', compact('allTeam'));
     }
     
 
@@ -47,7 +48,50 @@ class TeamController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        // Validate the data
+        $this->Validate($request, [
+            'image'         => 'required|image',
+            'first_name'          => 'required|min:2',
+            'last_name'           => 'required|min:2',
+            'position'   => 'required|min:2',
+            'description'   => 'required|min:20'
+        ]);
+
+        // Making a copy of the file that was uploaded
+        $image = Image::make($request->image);
+
+        switch($image->mime){
+            case 'image/jpeg':
+            case 'image/jpg':
+                $fileExtension = '.jpg';
+            break;
+
+            case 'image/png':
+                $fileExtension = '.png';
+            break;
+
+            case 'image/gif':
+                $fileExtension = '.gif';
+            break;
+        }
+
+        // Generate new file name
+        $filename = uniqid().'$fileExtension';
+
+        // Save the image
+        $image->save("images/team/$filename");
+
+        $newMember = $request->all();
+        $newMember['image'] = $filename;
+
+        
+
+        // Save the data
+        $member = Member::create($newMember);
+
+        $member->save();
+        // Redirect away to some other pages
+        return redirect('team/'.$member->id);
     }
 
     /**
@@ -58,7 +102,7 @@ class TeamController extends Controller
      */
     public function show($id)
     {
-        //
+        
     }
 
     /**
