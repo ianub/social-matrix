@@ -111,13 +111,10 @@
 	
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="js/bootstrap.js" type="text/javascript"></script>
-	<script src="js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="js/script.js"  type="text/javascript"></script>
-    <script src="js/socialMatrix-map.js" type="text/javascript"></script>
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAPk2cb6nhsAbWyEOi7hnHBjxDmDZflFs&callback=initMap">
-    </script>
+	<script src="/js/bootstrap.js" type="text/javascript"></script>
+    <script src="/js/script.js"  type="text/javascript"></script>
+    
+    
     <script type="text/javascript">
 	            $(document).ready(function(){
               // Add smooth scrolling to all links

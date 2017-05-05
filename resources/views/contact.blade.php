@@ -17,7 +17,8 @@
 			</div>
 		</div>
 	</div>
-	<form>
+	<form method="post" enctype="multipart/form-data" action="/team/store">
+		{{ csrf_field() }}
 		<div class="contact1">
 			<div class="container-fluid">
 				<div class="row">

@@ -148,8 +148,10 @@
 				</div>
 			</div>		
 	</div>
+<script src="/js/socialMatrix-map.js" type="text/javascript"></script>
 
-
-
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAPk2cb6nhsAbWyEOi7hnHBjxDmDZflFs&callback=initMap">
+    </script>
  
 @endsection

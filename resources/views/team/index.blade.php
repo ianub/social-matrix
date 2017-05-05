@@ -50,6 +50,7 @@
             <div class="createteam">
               @if(Auth::check())
               <a href="/team/create">ADD MEMBER</a>
+              <a href="/team/edit">EDIT MEMBER</a>
               @endif
             </div>
               @foreach($allTeam as $member)
@@ -57,7 +58,7 @@
                         <a class="panel-heading accordion-toggle collapsed left" data-toggle="collapse"
                            data-parent="#accordion1,#accordion2,#accordion3,#accordion4,#accordion5,#accordion6" data-target="#{{$member->id}}">
                             <div id="bu1">
-                                  <img src="{{$member->image}}" height="200px">
+                                  <img src="/images/team/{{$member->image}}">
                                   <h4>{{$member->first_name}} {{$member->last_name}}</h4><br>
                                   <h5>{{$member->position}}</h5>
 

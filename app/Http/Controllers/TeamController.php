@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Teams;
+use Intervention\Image\ImageManagerStatic as Image;
 
 class TeamController extends Controller
 {
@@ -35,8 +36,9 @@ class TeamController extends Controller
     public function create()
     {
         // Get all the categories to show on the form
-        $allTeam = Teams::pluck('id', 'image', 'first_name', 'last_name', 'position', 'description');
-        return view('team.create', compact('allTeam'));
+        // $allTeam = Teams::pluck('id', 'image', 'first_name', 'last_name', 'position', 'description');
+        // return view('team.create', compact('allTeam'));
+        return view('team.create');
     }
     
 
@@ -48,17 +50,18 @@ class TeamController extends Controller
      */
     public function store(Request $request)
     {
+
         // Validate the data
         $this->Validate($request, [
             'image'         => 'required|image',
-            'first_name'          => 'required|min:2',
-            'last_name'           => 'required|min:2',
-            'position'   => 'required|min:2',
+            'first_name'          => 'required',
+            'last_name'           => 'required',
+            'position'      => 'required|min:2',
             'description'   => 'required|min:20'
         ]);
 
         // Making a copy of the file that was uploaded
-        $image = Image::make($request->image);
+        $image = Image::make($request->image)->resize(200, 200);
 
         switch($image->mime){
             case 'image/jpeg':
@@ -74,9 +77,9 @@ class TeamController extends Controller
                 $fileExtension = '.gif';
             break;
         }
-
+        
         // Generate new file name
-        $filename = uniqid().'$fileExtension';
+        $filename = uniqid().$fileExtension;
 
         // Save the image
         $image->save("images/team/$filename");
@@ -87,11 +90,20 @@ class TeamController extends Controller
         
 
         // Save the data
-        $member = Member::create($newMember);
+        // $member = Member::create($newMember);
 
-        $member->save();
+        $newMember = new Teams();
+
+        $newMember->first_name = $request['first_name'];
+        $newMember->last_name = $request['last_name'];
+        $newMember->image = $filename;
+        $newMember->position = $request['position'];
+        $newMember->description = $request['description'];
+
+        $newMember->save();
+
         // Redirect away to some other pages
-        return redirect('team/'.$member->id);
+        return redirect('/team/');
     }
 
     /**
@@ -102,7 +114,7 @@ class TeamController extends Controller
      */
     public function show($id)
     {
-        
+        // 
     }
 
     /**
@@ -113,7 +125,7 @@ class TeamController extends Controller
      */
     public function edit($id)
     {
-        //
+        return view('team.edit');
     }
 
     /**
@@ -125,7 +137,66 @@ class TeamController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        // Validate the data
+            $this->Validate($request, [
+            'image'         => 'required|image',
+            'first_name'          => 'required',
+            'last_name'           => 'required',
+            'position'      => 'required|min:2',
+            'description'   => 'required|min:20'
+        ]);
+
+        // Find the product that is being updated
+        // $product = Product::findOrFail($id);
+
+        // Override the values with new ones
+        $newMember->first_name = $request['first_name'];
+        $newMember->last_name = $request['last_name'];
+        $newMember->image = $filename;
+        $newMember->position = $request['position'];
+        $newMember->description = $request['description'];
+
+        // Did the user upload an image?
+        if($request->hasFile('image')){
+            // Upload the new one
+                // Making a copy of the file that was uploaded
+                $image = Image::make($request->image)->resize(200, 200);
+
+                switch($image->mime){
+                    case 'image/jpeg':
+                    case 'image/jpg':
+                        $fileExtension = '.jpg';
+                    break;
+
+                    case 'image/png':
+                        $fileExtension = '.png';
+                    break;
+
+                    case 'image/gif':
+                        $fileExtension = '.gif';
+                    break;
+                }
+
+                // Generate new file name
+                $filename = uniqid().$fileExtension;
+
+                // Save the image
+                $image->save("images/team/$filename");
+
+
+            // Make sure the file has successfully uploaded
+            // Remove the old one
+                unlink('images/team/'.$newMember->image);
+            // Save the new filename
+                $newMember->image = $filename;
+
+        }
+
+        // Save
+        $newMember->save();
+
+        // Redirect back to product page
+        return redirect('/team/');
     }
 
     /**
