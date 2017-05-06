@@ -17,9 +17,9 @@ class TeamController extends Controller
     {
  
         // Get most popular team
-        $allTeam = Teams::all();
+        // $allTeam = Teams::all();
         // Show the most popular team
-        return view('team.index', compact('allTeam'));
+        return view('team.index');
 
     
         // return view ('team.index');
@@ -125,6 +125,7 @@ class TeamController extends Controller
      */
     public function edit($id)
     {
+        $member = Teams::findOrFail($id);
         return view('team.edit');
     }
 
@@ -147,7 +148,7 @@ class TeamController extends Controller
         ]);
 
         // Find the product that is being updated
-        // $product = Product::findOrFail($id);
+        $member = Teams::findOrFail($id);
 
         // Override the values with new ones
         $newMember->first_name = $request['first_name'];
@@ -207,6 +208,7 @@ class TeamController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $newMember = Item::findOrFail($id);
+        $newMember->delete();
     }
 }
