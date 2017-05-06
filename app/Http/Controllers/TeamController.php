@@ -20,9 +20,6 @@ class TeamController extends Controller
         // $allTeam = Teams::all();
         // Show the most popular team
         return view('team.index');
-
-    
-        // return view ('team.index');
     
     
     }
