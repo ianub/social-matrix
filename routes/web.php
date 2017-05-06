@@ -12,15 +12,15 @@
 */
 Route::get('/', 	 	'HomeController@index');
 Route::get('/home', 	'HomeController@index');
+
 Route::get('/team', 	'TeamController@index');
 Route::get('/team/create', 'TeamController@create');
 Route::get('/team/edit', 'TeamController@edit');
 Route::post('/team/store', 'TeamController@store');
 Route::post('/team/update', 'TeamController@update');
 
-
-
 Route::get('/services', 'ServicesController@index');
+
 Route::get('/prices', 	'PricesController@index');
 Route::get('/contact', 	'ContactController@index');
 

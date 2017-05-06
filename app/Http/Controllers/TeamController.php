@@ -13,13 +13,14 @@ class TeamController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
     public function index()
     {
  
         // Get most popular team
-        // $allTeam = Teams::all();
+        $allTeam = Teams::all();
         // Show the most popular team
-        return view('team.index');
+        return view('team.index', compact('allTeam'));
     
     
     }
@@ -35,7 +36,8 @@ class TeamController extends Controller
         // Get all the categories to show on the form
         // $allTeam = Teams::pluck('id', 'image', 'first_name', 'last_name', 'position', 'description');
         // return view('team.create', compact('allTeam'));
-        return view('team.create');
+        $allTeam = Teams::all();
+        return view('team.create', compact('allTeam'));
     }
     
 
@@ -87,7 +89,6 @@ class TeamController extends Controller
         
 
         // Save the data
-        // $member = Member::create($newMember);
 
         $newMember = new Teams();
 
@@ -122,7 +123,7 @@ class TeamController extends Controller
      */
     public function edit($id)
     {
-        $member = Teams::findOrFail($id);
+        // $member = Teams::findOrFail($id);
         return view('team.edit');
     }
 
@@ -145,7 +146,7 @@ class TeamController extends Controller
         ]);
 
         // Find the product that is being updated
-        $member = Teams::findOrFail($id);
+        // $member = Teams::findOrFail($id);
 
         // Override the values with new ones
         $newMember->first_name = $request['first_name'];
@@ -205,7 +206,7 @@ class TeamController extends Controller
      */
     public function destroy($id)
     {
-        $newMember = Item::findOrFail($id);
-        $newMember->delete();
+        // $newMember = Item::findOrFail($id);
+        // $newMember->delete();
     }
 }
