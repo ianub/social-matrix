@@ -15,14 +15,22 @@ Route::get('/home', 	'HomeController@index');
 
 Route::get('/team', 	'TeamController@index');
 Route::get('/team/create', 'TeamController@create');
-Route::get('/team/edit', 'TeamController@edit');
 Route::post('/team/store', 'TeamController@store');
-Route::post('/team/update', 'TeamController@update');
+Route::post('/team/update/{id}', 'TeamController@update');
+Route::get('/team/edit/{id}', 'TeamController@edit');
+Route::get('/team/delete/{id}', 'TeamController@destroy');
 
 Route::get('/services', 'ServicesController@index');
 
 Route::get('/prices', 	'PricesController@index');
 Route::get('/contact', 	'ContactController@index');
+
+Route::get('/logout', function(){
+
+	Auth::logout();
+	return redirect('/');
+
+});
 
 Auth::routes();
 

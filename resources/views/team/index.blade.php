@@ -47,75 +47,30 @@
 	<div class="row">
 		<div class="text-center">
 		       <div class="wrapper_bu">
-            <div class="createteam">
-              @if(Auth::check())
-              <a href="/team/create">ADD MEMBER</a>
-              <a href="/team/edit">EDIT MEMBER</a>
-              @endif
-            </div>
               @foreach($allTeam as $member)
 		           <div class="image">
                         <a class="panel-heading accordion-toggle collapsed left" data-toggle="collapse"
-                           data-parent="#accordion1,#accordion2,#accordion3,#accordion4,#accordion5,#accordion6" data-target="#{{$member->id}}">
+                           data-parent="#accordion1" data-target="#{{$member->id}}">
                             <div id="bu1">
-                                  <img src="/images/team/{{$member->image}}">
-                                  <h4>{{$member->first_name}} {{$member->last_name}}</h4><br>
+                            <button><img src="/images/team/{{$member->image}}"></button>
+                                  <h4>{{$member->first_name}} {{$member->last_name}}</h4>
                                   <h5>{{$member->position}}</h5>
+                                  @if(Auth::check())
+                                  <a href="/team/edit/{{$member->id}}">Edit</a><br>
+                                  <a href="/team/delete/{{$member->id}}">Delete</a>
+                                  @endif
 
                             </div>
                         </a>
                  </div>
-                 @endforeach
-                 {{-- <div class="image">
-                    <a class="panel-heading accordion-toggle collapsed left" data-toggle="collapse"
-                       data-parent="#accordion1,#accordion2,#accordion3,#accordion4,#accordion5,#accordion6" data-target="#collapseTwo">
-                        <div id="bu2">
-                            <img src="images/hassan.jpg" height="200px">
-                                  <h4>HASSAN DIA</h4>
-                                  <h5>POSITION</h5>
-                        </div>
-                    </a>
-                 </div>
-                <div class="image">
-                    <a class="panel-heading accordion-toggle collapsed left " data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4,#accordion5,#accordion6"
-                       data-target="#collapseThree">
-                          <div id="bu3">
-                              <img src="images/josh.jpg" height="200px">
-                                  <h4>JOSH BORGIA</h4>
-                                  <h5>POSITION</h5>
-                          </div>
-                    </a>
-                </div>
-                <div class="image">
-                        <a class="panel-heading accordion-toggle collapsed left" data-toggle="collapse"
-                           data-parent="#accordion1,#accordion2,#accordion3,#accordion4,#accordion5,#accordion6" data-target="#collapseFour">
-                            <div id="bu4">
-                                  <img src="images/josh.jpg" height="200px">
-                                  <h4>JOSH BORGIA</h4>
-                                  <h5>POSITION</h5>
-                            </div>
-                        </a>
-                 </div>
-                 <div class="image">
-                        <a class="panel-heading accordion-toggle collapsed left" data-toggle="collapse"
-                           data-parent="#accordion1,#accordion2,#accordion3,#accordion4,#accordion5,#accordion6" data-target="#collapseFive">
-                            <div id="bu5">
-                                  <img src="images/josh.jpg" height="200px">
-                                  <h4>JOSH BORGIA</h4>
-                                  <h5>POSITION</h5>
-                            </div>
-                        </a>
-                 </div>
-                 <div class="image">
-                        <a class="panel-heading accordion-toggle collapsed left" data-toggle="collapse"
-                           data-parent="#accordion1,#accordion2,#accordion3,#accordion4,#accordion5,#accordion6" data-target="#collapseSix">
-                            <div id="bu5">
-                                  <img src="images/josh.jpg" height="200px">
-                                  <h4>JOSH BORGIA</h4>
-                                  <h5>POSITION</h5>
-                            </div>
-                        </a>
-                 </div> --}}
+                  @endforeach
+                  <div class="createteam">
+                  @if(Auth::check())
+
+                  <a href="/team/create"><button type="button" class="btn btn-default">ADD A MEMBER</button></a>
+                  @endif
+            </div>
+                 
             </div>
 
             <div class="panel-group col-md-8 col-lg-6 col-md-offset-2 col-lg-offset-3" id="accordion1">

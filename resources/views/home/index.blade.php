@@ -35,7 +35,7 @@
 						<p>We specialise in, and are committed to, partnering our clients to engage with their defined audiences through social media.
 						Through specific interventions and growth, we connect you with your audience through various online platforms which your customers utilize every day.</p>
 						<p>By engaging your stakeholders – not just your ad agency and marketing teams – we look to create a culture where everyone feels comfortable contributing to content. Social media is the new way of marketing.</p>
-						<button type="button" class="btn btn-default"><a href="{{ url('/team') }}">MEET OUR TEAM</a></button>
+						<a href="{{ url('/team') }}"><button type="button" class="btn btn-default">MEET OUR TEAM</button></a>
 					</div>
 				</div>
 			</div>
@@ -142,7 +142,7 @@
 							<p><small>2/130 ORIENTAL PARADE, ORIENTAL BAY, <br>
 							WELLINGTON, NEW ZEALAND 6011<br>
 							+64 4 801 9022</small></p>
-							<button type="button" class="btn btn-default"><a href="{{ url('/contact') }}">CONTACT US</a></button>
+							<a href="{{ url('/contact') }}"><button type="button" class="btn btn-default">CONTACT US</button></a>
 						
 					</div>
 				</div>

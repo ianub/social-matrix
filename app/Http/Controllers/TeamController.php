@@ -123,8 +123,8 @@ class TeamController extends Controller
      */
     public function edit($id)
     {
-        // $member = Teams::findOrFail($id);
-        return view('team.edit');
+        $member = Teams::findOrFail($id);
+        return view('team.edit', compact('member'));
     }
 
     /**
@@ -138,7 +138,7 @@ class TeamController extends Controller
     {
         // Validate the data
             $this->Validate($request, [
-            'image'         => 'required|image',
+            'image'         => 'image',
             'first_name'          => 'required',
             'last_name'           => 'required',
             'position'      => 'required|min:2',
@@ -146,14 +146,15 @@ class TeamController extends Controller
         ]);
 
         // Find the product that is being updated
-        // $member = Teams::findOrFail($id);
+        $member = Teams::findOrFail($id);
 
         // Override the values with new ones
-        $newMember->first_name = $request['first_name'];
-        $newMember->last_name = $request['last_name'];
-        $newMember->image = $filename;
-        $newMember->position = $request['position'];
-        $newMember->description = $request['description'];
+        $member->first_name = $request['first_name'];
+        $member->last_name = $request['last_name'];
+        
+        $member->position = $request['position'];
+        $member->description = $request['description'];
+
 
         // Did the user upload an image?
         if($request->hasFile('image')){
@@ -185,14 +186,14 @@ class TeamController extends Controller
 
             // Make sure the file has successfully uploaded
             // Remove the old one
-                unlink('images/team/'.$newMember->image);
+                unlink('images/team/'.$member->image);
             // Save the new filename
-                $newMember->image = $filename;
+                $member->image = $filename;
 
         }
 
         // Save
-        $newMember->save();
+        $member->save();
 
         // Redirect back to product page
         return redirect('/team/');
@@ -206,7 +207,9 @@ class TeamController extends Controller
      */
     public function destroy($id)
     {
-        // $newMember = Item::findOrFail($id);
-        // $newMember->delete();
+        $member = Teams::findOrFail($id);
+        $member->delete();
+
+        return redirect('/team/');
     }
 }

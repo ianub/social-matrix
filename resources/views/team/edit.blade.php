@@ -3,7 +3,6 @@
 @section('title', 'Social Matrix | Edit')
 
 @section('content')
-
 	
 	<div class="contact">
 		<div class="home-text">
@@ -19,7 +18,7 @@
 		</div>
 	</div>
 
-	<form method="post" enctype="multipart/form-data" action="/team/update">
+	<form method="post" enctype="multipart/form-data" action="/team/update/{{$member->id}}">
 		{{ csrf_field() }}
 		<div class="contact1">
 			<div class="container-fluid">
@@ -32,39 +31,39 @@
 							<div class="form-group row">
 							  <label for="first_name" class="col-2 col-form-label">FIRST NAME</label><br>
 							  
-							    <input class="form-control" type="text" id="first_name" name="first_name" value="{{ old('first_name') }}">
+							    <input class="form-control" type="text" id="first_name" name="first_name" value="{{$member->first_name}}">
 							 
 							</div>
 
 							<div class="form-group row">
 							  <label for="last_name" class="col-2 col-form-label">LAST NAME</label><br>
 							  
-							    <input class="form-control" type="text" id="last_name" name="last_name" value="{{ old('last_name') }}">
+							    <input class="form-control" type="text" id="last_name" name="last_name" value="{{$member->last_name}}">
 							  
 							</div>
 
 							<div class="form-group row">
 							  <label for="position" class="col-2 col-form-label">POSITION</label><br>
 							  
-							    <input class="form-control" type="text" id="position" name="position" value="{{ old('position') }}">
+							    <input class="form-control" type="text" id="position" name="position" value="{{$member->position}}">
 							  
 							</div>
 
 							<div class="form-group row">
 							  <label for="description" class="col-2 col-form-label">DESCRIPTION</label><br>
 							  
-							     <textarea class="form-control" rows="10" id="description" name="description" value="{{ old('description') }}"></textarea>
+							     <textarea class="form-control" rows="10" id="description" name="description" >{{$member->description}}</textarea>
 							 
 							</div>
 
 							<div class="form-group row">
 							  <label for="image" class="col-2 col-form-label">IMAGE</label><br>
 							  
-							    <input class="form-control" type="file" id="image" name="image" value="{{ old('image') }}">
+							    <input class="form-control" type="file" id="image" name="image">
 							 
 							</div>
 
-							<input type="submit" value="SUBMIT">
+							<input type="submit" value="SUBMIT" class="btn btn-default">
 					</div>
 						
 

@@ -72,6 +72,7 @@ a:hover {
 }
 .fbox .flogreg {
 	margin-top: 30px;
+	text-transform: uppercase;
 }
 .fbox .flogreg a, .fbox .flogreg i {
 	margin-right: 20px;
@@ -686,10 +687,13 @@ hr {
 .wrapper_bu {
     text-align: center;
 }
-.bu1:hover {
-	opacity: 0.6;
+#bu1 img {
+	margin: 20px;
 }
-
+#bu1 button {
+	background-color: transparent;
+	border: none;
+}
 .panel-default {
     border: none;
 }
@@ -804,6 +808,28 @@ hr {
 }
 .createteam {
 	margin-bottom: 20px;
+}
+/* account */
+.account {
+	background-image: url('../images/oceanimg.jpg');
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-position-x: 65%;
+	background-repeat: no-repeat;
+	display: table;
+	position: relative;
+	padding: 60px 30px;
+	background-size: 1920px;
+}
+.account .container {
+	display: table-cell;
+    vertical-align: middle;
+}
+.account h1 {
+	background-color: rgba(246,246,246,0.1);
+	padding: 60px 10px;
+	color: #222;
 }
 
 /* media queries */

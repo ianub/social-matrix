@@ -53,7 +53,7 @@
 							<div class="form-group row">
 							  <label for="description" class="col-2 col-form-label">DESCRIPTION</label><br>
 							  
-							     <textarea class="form-control" rows="10" id="description" name="description" value="{{ old('description') }}"></textarea>
+							     <textarea class="form-control" rows="10" id="description" name="description">{{ old('description') }}</textarea>
 							 
 							</div>
 
@@ -64,7 +64,7 @@
 							 
 							</div>
 
-							<input type="submit" value="SUBMIT">
+							<input type="submit" value="SUBMIT" class="btn btn-default">
 					</div>
 						
 
