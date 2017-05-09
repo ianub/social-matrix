@@ -831,6 +831,10 @@ hr {
 	padding: 60px 10px;
 	color: #222;
 }
+.modal-content {
+	color: #222;
+	font-size: 1.6em;
+}
 
 /* media queries */
 /* Small Devices, Tablets 768 px */

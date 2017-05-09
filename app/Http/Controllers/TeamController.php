@@ -101,7 +101,7 @@ class TeamController extends Controller
         $newMember->save();
 
         // Redirect away to some other pages
-        return redirect('/team/');
+        return redirect('/team/#team1');
     }
 
     /**
@@ -210,6 +210,6 @@ class TeamController extends Controller
         $member = Teams::findOrFail($id);
         $member->delete();
 
-        return redirect('/team/');
+        return redirect('/team/#team1');
     }
 }

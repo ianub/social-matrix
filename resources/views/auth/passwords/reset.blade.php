@@ -1,4 +1,6 @@
-@extends('layouts.app')
+@extends('master')
+
+@section('title', 'Social Matrix | Change Password')
 
 @section('content')
 <div class="container">

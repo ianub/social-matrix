@@ -75,7 +75,7 @@
 		</div>
 	</form>
 
-<ul>
+<ul class="text-center">
 	@foreach($errors->all() as $error)
 		<li>{{ $error }}</li>
 	@endforeach

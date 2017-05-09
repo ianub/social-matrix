@@ -42,7 +42,7 @@
 		</div>
 	</div>
   
-	<div class="team1">
+	<div class="team1" id="team1">
 	<div class="container-fluid">
 	<div class="row">
 		<div class="text-center">
@@ -56,14 +56,27 @@
                                   <h4>{{$member->first_name}} {{$member->last_name}}</h4>
                                   <h5>{{$member->position}}</h5>
                                   @if(Auth::check())
-                                  <a href="/team/edit/{{$member->id}}">Edit</a><br>
-                                  <a href="/team/delete/{{$member->id}}">Delete</a>
+
+
+                                  <a href="/team/edit/{{$member->id}}"><button type="button" class="btn btn-primary">EDIT</button></a><br>
+                                  
+                                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">DELETE</button>
+
+							
                                   @endif
+
 
                             </div>
                         </a>
                  </div>
                   @endforeach
+                    <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+					  	<div class="modal-dialog modal-sm" role="document">
+					   		<div class="modal-content">
+					     		<a href="/team/delete/{{$member->id}}"><strong>CLICK HERE TO DELETE</strong></a>
+					    	</div>
+					  	</div>
+					</div>
                   <div class="createteam">
                   @if(Auth::check())
 
