@@ -11,8 +11,13 @@
                 <div class="panel panel-default">
                     <div class="panel-body">
                         
-
-                            <h1>WELCOME<br>{{ Auth::user()->name }}</h1>
+                        <div class="text-align">
+                            <h1>WELCOME {{ Auth::user()->name }}<br>
+                            <a href="/team/#team1"><button type="button" class="btn btn-default text-center"><h4><strong>Make changes to team</strong></h4></button></a><br>
+                            <a href="/home"><button type="button" class="btn btn-default text-center"><h4><strong>Go to home page</strong></h4></button></a></h1>
+                          
+                            
+                        </div>
                        
                     </div>
                 </div>

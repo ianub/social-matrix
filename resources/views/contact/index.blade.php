@@ -17,7 +17,7 @@
 			</div>
 		</div>
 	</div>
-	<form method="post" enctype="multipart/form-data" action="/team/store">
+	<form method="post" enctype="multipart/form-data" action="/contact/success">
 		{{ csrf_field() }}
 		<div class="contact1">
 			<div class="container-fluid">
@@ -31,6 +31,7 @@
 							  <label for="example-text-input" class="col-2 col-form-label">FIRST NAME</label><br>
 							  
 							    <input class="form-control" type="text" id="example-text-input">
+							    
 							 
 							</div>
 

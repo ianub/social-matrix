@@ -585,6 +585,9 @@ hr {
 	padding: 60px 30px;
 	background-color: #333;
 }
+.team1 .btn-danger {
+	color: rgb(184, 0, 0);
+}
 /* services */
 .services {
 	background-image: url('../images/painting1.jpg');
@@ -613,6 +616,9 @@ hr {
 .services1 .image i:hover {
 	opacity: 1;
 	transition: 0.2s;
+}
+.services1 .ss {
+	margin-bottom: 25px;
 }
 .txt_h1 {
     font-size: 2em;
@@ -831,9 +837,18 @@ hr {
 	padding: 60px 10px;
 	color: #222;
 }
+.account h4 {
+	color: #222 !important;
+}
 .modal-content {
 	color: #222;
 	font-size: 1.6em;
+}
+.modal-content a {
+	opacity: 0.9;
+}
+.help-block strong {
+	color: rgb(184, 0, 0);
 }
 
 /* media queries */

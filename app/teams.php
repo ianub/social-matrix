@@ -4,9 +4,9 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class teams extends Model
+class Teams extends Model
 {
-      protected $fillable = [
+  	protected $fillable = [
         'first_name', 'last_name', 'position', 'image', 'description',
         ];
 }

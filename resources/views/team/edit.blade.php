@@ -32,6 +32,11 @@
 							  <label for="first_name" class="col-2 col-form-label">FIRST NAME</label><br>
 							  
 							    <input class="form-control" type="text" id="first_name" name="first_name" value="{{$member->first_name}}">
+							    @if ($errors->has('first_name'))
+                                        <span class="help-block has-warning">
+                                            <strong>{{ $errors->first('first_name') }}</strong>
+                                        </span>
+                                    @endif
 							 
 							</div>
 
@@ -39,6 +44,11 @@
 							  <label for="last_name" class="col-2 col-form-label">LAST NAME</label><br>
 							  
 							    <input class="form-control" type="text" id="last_name" name="last_name" value="{{$member->last_name}}">
+							    @if ($errors->has('last_name'))
+                                        <span class="help-block">
+                                            <strong>{{ $errors->first('last_name') }}</strong>
+                                        </span>
+                                    @endif
 							  
 							</div>
 
@@ -46,6 +56,11 @@
 							  <label for="position" class="col-2 col-form-label">POSITION</label><br>
 							  
 							    <input class="form-control" type="text" id="position" name="position" value="{{$member->position}}">
+							    @if ($errors->has('position'))
+                                        <span class="help-block">
+                                            <strong>{{ $errors->first('position') }}</strong>
+                                        </span>
+                                    @endif
 							  
 							</div>
 
@@ -53,6 +68,11 @@
 							  <label for="description" class="col-2 col-form-label">DESCRIPTION</label><br>
 							  
 							     <textarea class="form-control" rows="10" id="description" name="description" >{{$member->description}}</textarea>
+							     @if ($errors->has('description'))
+                                        <span class="help-block">
+                                            <strong>{{ $errors->first('description') }}</strong>
+                                        </span>
+                                    @endif
 							 
 							</div>
 
@@ -60,6 +80,11 @@
 							  <label for="image" class="col-2 col-form-label">IMAGE</label><br>
 							  
 							    <input class="form-control" type="file" id="image" name="image">
+							    @if ($errors->has('image'))
+                                        <span class="help-block">
+                                            <strong>{{ $errors->first('image') }}</strong>
+                                        </span>
+                                    @endif
 							 
 							</div>
 
@@ -73,11 +98,5 @@
 			</div>
 		</div>
 	</form>
-
-<ul>
-	@foreach($errors->all() as $error)
-		<li>{{ $error }}</li>
-	@endforeach
-</ul>
 
 @endsection

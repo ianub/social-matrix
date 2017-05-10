@@ -58,9 +58,9 @@
                                   @if(Auth::check())
 
 
-                                  <a href="/team/edit/{{$member->id}}"><button type="button" class="btn btn-primary">EDIT</button></a><br>
+                                  <a href="/team/edit/{{$member->id}}"><button type="button" class="btn btn-primary"><strong>EDIT</strong></button></a><br>
                                   
-                                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">DELETE</button>
+                                  <button type="button" class="btn btn-danger" data-toggle="modal" data-target=".bs-example-modal-sm"><strong>DELETE</strong></button>
 
 							
                                   @endif

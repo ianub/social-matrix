@@ -23,7 +23,14 @@ Route::get('/team/delete/{id}', 'TeamController@destroy');
 Route::get('/services', 'ServicesController@index');
 
 Route::get('/prices', 	'PricesController@index');
+Route::get('/prices/create', 	'PricesController@create');
+Route::post('/prices/store', 	'PricesController@store');
+Route::post('/prices/update/{id}', 	'PricesController@update');
+Route::get('/prices/edit/{id}', 	'PricesController@edit');
+Route::get('/prices/delete/{id}', 	'PricesController@delete');
+
 Route::get('/contact', 	'ContactController@index');
+Route::post('/contact/success', 'ContactController@index');
 
 Route::get('/logout', function(){
 

@@ -86,8 +86,7 @@
                                 
                                 <div>
                                   <h2>SOCIAL INSIGHT</h2>
-                                  <h4>What is the business capability, capacity, and commitment to social as a critical channel to market?  Our consulting services help your business clearly map your social media, go to market plan.</h4>
-                                  <span></span>
+                                  <h4 class="ss">What is the business capability, capacity, and commitment to social as a critical channel to market?  Our consulting services help your business clearly map your social media, go to market plan.</h4>
                                   <h4>Capability.</h4>
                                   <p>Assessing stakeholder resources to capture content, do the stakeholders use smartphones, do they have access to computers, do they have access to email,  cameras or video?   Does the employee group have the propensity to write blogs or white papers, maybe they are natural behind a camera, what about in front of a camera?  Does the marketing department include content as part of its social strategy and have a bank of content available for use,  is their budget to create a creative production based on a strategic marketing goal, therefore access to an outsource resource,  maybe even insourced capability?</p>
 
@@ -115,7 +114,7 @@
                                 <div>
                                   <h2>SOCIAL SELLING</h2>
 
-                                  <h4>Customers generally engage with the seller when 70% of the buying process is complete. Although they are willing to engage with a salesperson, they don’t want to be sold to – customers want to learn. 76% of buyers are willing to have a social media conversation about their pending buying decision.</h4>
+                                  <h4 class="ss">Customers generally engage with the seller when 70% of the buying process is complete. Although they are willing to engage with a salesperson, they don’t want to be sold to – customers want to learn. 76% of buyers are willing to have a social media conversation about their pending buying decision.</h4>
                                   <h4>People.</h4>
                                   <p>Who is your target rich audience? What interests them and where do they get information from to make their decisions?  Who do those people associate with and how are they influenced? How do they use Social Media? Marketers need to understand where to meet their customers online and this now includes the intricacies of Social Media.</p>
                                   <h4>Insight.</h4>
@@ -135,7 +134,7 @@
                                 
                                 <div>
                                   <h2>AUDIENCE GROWTH</h2>
-                                  <h4>Who, specifically, is your target audience and on what social platforms do they use?  Most importantly, are you connected to them?  If not, we need to develop interventions to connect so that our social tactics are landing with the right people.</h4>
+                                  <h4 class="ss">Who, specifically, is your target audience and on what social platforms do they use?  Most importantly, are you connected to them?  If not, we need to develop interventions to connect so that our social tactics are landing with the right people.</h4>
                                   <h4>Target Audience.</h4>
                                   <p>Who are your customers your audience, what inspires them, what troubles them, what excites them, where do they live, work or play and importantly how do they consume information?</p>
 
@@ -161,7 +160,7 @@
                                
                                 <div>
                                   <h2>CONTENT CULTURE</h2>
-                                  <h4>What is the business capability, capacity, and commitment to social as a critical channel to market?  Our consulting services help your business clearly map your social media, go to market plan.</h4>
+                                  <h4 class="ss">What is the business capability, capacity, and commitment to social as a critical channel to market?  Our consulting services help your business clearly map your social media, go to market plan.</h4>
                                   <h4>Capability.</h4>
                                   <p>Assessing stakeholder resources to capture content, do the stakeholders use smartphones, do they have access to computers, do they have access to email,  cameras or video?   Does the employee group have the propensity to write blogs or white papers, maybe they are natural behind a camera, what about in front of a camera?  Does the marketing department include content as part of its social strategy and have a bank of content available for use,  is their budget to create a creative production based on a strategic marketing goal, therefore access to an outsource resource,  maybe even insourced capability?</p>
 
@@ -187,7 +186,7 @@
                                 
                                 <div>
                                   <h2>CONTENT PRODUCTION</h2>
-                                  <h4>Generating persistent, provocative, engaging, video rich content that is grounded in the customer’s world.  Content that drives a conversation with your audience, not a lecture, gets better engagement.</h4>
+                                  <h4 class="ss">Generating persistent, provocative, engaging, video rich content that is grounded in the customer’s world.  Content that drives a conversation with your audience, not a lecture, gets better engagement.</h4>
  
                                   <h4>Content culture.</h4>
                                   <p>Creating a brand culture where everyone including customers, engineers, warehouse, logistics, executives, even suppliers, are invested in contributing to the richness of the brand’s social media activity. By allowing your own customers to create content, it enables more authentic customer focused experiences and connects much more effectively with the hearts and minds of your audience.  It also enables a better flow of content – without the big budgets required for professional video productions.</p>

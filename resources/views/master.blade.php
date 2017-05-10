@@ -8,42 +8,12 @@
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
 	<!-- font awesome -->
 	<script src="https://use.fontawesome.com/8f9516a9ab.js"></script>
-{{-- 	<style type="text/css">
-		.navbar-fixed-bottom, .navbar-fixed-top {
-		    position: fixed;
-		    right: 0 !important; 
-		    /*left: 0;  */
-		    z-index: 1030;
-		}
-	</style> --}}
+
 
 </head>
 <body>
 
-	{{-- <nav id="mainNav" class="navbar navbar-default navbar-fixed-top affix-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
-                    <span class="sr-only">Toggle navigation</span><i class="fa fa-bars fa-2x"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="{{ url('/home') }}"><img src="/images/smlogow.png"></a>
-            </div>
 
-            Collect the nav links, forms, and other content for toggling
-            <div class="navbar-collapse collapse in" id="bs-example-navbar-collapse-1" aria-expanded="true">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="{{ url('/home') }}">HOME</a></li>
-					<li><a href="{{ url('/team') }}">TEAM</a></li>
-					<li><a href="{{ url('/services') }}">SERVICES</a></li>
-					<li><a href="{{ url('/prices') }}">PRICES</a></li>
-					<li><a href="{{ url('/contact') }}">CONTACT</a></li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav> --}}
 
 
 	<div id="wrapper">
@@ -94,16 +64,16 @@
 						<a href="{{ url('/logout') }}"><small>LOGOUT</small></a>
 						@else
 						<a href="{{ url('/login') }}"><small>LOG IN AS ADMIN</small></a>
-						<a href="{{ url('/register') }}"><small>REGISTER</small></a>
+						
 						@endif
 					</div>
 				</div>
 				<div class="footer-box2">
 					<div class="social-logo">
-						<a href="https://www.facebook.com/Socialmatrix.nz/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
-						<a href="https://www.instagram.com/socialmatrixnz/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
-						<a href="https://twitter.com/socialmatrix0"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-						<a href="https://www.linkedin.com/"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+						<a href="https://www.facebook.com/Socialmatrix.nz/" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+						<a href="https://www.instagram.com/socialmatrixnz/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+						<a href="https://twitter.com/socialmatrix0" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+						<a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
 					</div>
 					<div class="copyright">
 						<small><p>&copy; 2017 SOCIAL MATRIX ALL RIGHTS RESERVED</p></small>
