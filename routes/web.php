@@ -32,6 +32,7 @@ Route::get('/prices/delete/{id}', 	'PricesController@delete');
 Route::get('/contact', 	'ContactController@index');
 Route::post('/contact/success', 'ContactController@index');
 
+
 Route::get('/logout', function(){
 
 	Auth::logout();

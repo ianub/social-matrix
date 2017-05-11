@@ -17,49 +17,56 @@
 			</div>
 		</div>
 	</div>
-	@foreach($allPrices as $prices)
+	
 		<div class="pricesbox">
 			<div class="prices1">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="text-center">
-							<h2>{{$prices->header}}</h2>
+							<h2>STANDARD</h2>
 							<hr>
-							<h1>${{$prices->cost}}</h1>
+							<h1>$999</h1>
 							<p>PER MONTH</p>
 							<hr>
-							<ul>
-								<li>{{$prices->description}}</li>
-							</ul>
-							<div id="bu1">
-						     @if(Auth::check())
-									<hr>
+							<p>Included Budget for Campaigns</p>
+							<p>Platform Optimisation - up to 2</p>
+							<p>Monthly Strategy Workshop</p>
+							<p>Content Culture Project Management</p>
+							<p>Content Culture Coaching</p>
+							<p>Managed Content</p>
+							<p>Community Overwatch</p>
+							<p>Social Selling Coaching</p>
+						</div>
+					</div>
+				</div>
+			</div>
 
-						          <a href="/team/edit/{{$prices->id}}"><button type="button" class="btn btn-primary"><strong>EDIT</strong></button></a><br>
-						          
-						          <button type="button" class="btn btn-danger" data-toggle="modal" data-target=".bs-example-modal-sm"><strong>DELETE</strong></button>
-
-							
-						          @endif
-
-
-						    </div>
+			<div class="prices2">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="text-center">
+							<h2>PREMIUM</h2>
+							<hr>
+							<h1>$1995</h1>
+							<p>PER MONTH</p>
+							<hr>
+							<p>Included Budget for Campaigns</p>
+							<p>Platform Optimisation - up to 2</p>
+							<p>Monthly Strategy Workshop</p>
+							<p>Content Culture Project Management</p>
+							<p>Content Culture Coaching</p>
+							<p>Managed Content</p>
+							<p>Community Overwatch</p>
+							<p>Social Selling Coaching</p>
+							<p>Social Selling Interventions</p>
 						</div>
 					</div>
 				</div>
 			</div>	
-		</div>
-	  @endforeach
 
-<div class="container-fluid">
-			<div class="row">
-				<div class="text-center">
-					@if(Auth::check())
-				      	<a href="/prices/create"><button type="button" class="btn btn-default">ADD</button></a>
-				  	@endif
-				  </div>
-				</div>
-			</div>
+		</div>
+	 
+
 	
 	<div class="prices3">	
 		<div class="container-fluid">
