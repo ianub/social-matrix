@@ -42,7 +42,7 @@ return [
     |
     */
 
-    'port' => env('MAIL_PORT', 2525),
+    'port' => env('MAIL_PORT', 587),
 
     /*
     |--------------------------------------------------------------------------
@@ -56,8 +56,8 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
-        'name' => env('MAIL_FROM_NAME', 'Example'),
+        'address' => env('MAIL_FROM_ADDRESS', 'ianbyh@gmail.com'),
+        'name' => env('MAIL_FROM_NAME', 'Ian'),
     ],
 
     /*
@@ -84,9 +84,9 @@ return [
     |
     */
 
-    'username' => env('MAIL_USERNAME'),
+    'username' => env('postmaster@sandboxbb853ee2807246979a03e2faf98f3958.mailgun.org'),
 
-    'password' => env('MAIL_PASSWORD'),
+    'password' => env('d2e5971e8be005014374e8ede13173c7'),
 
     /*
     |--------------------------------------------------------------------------
