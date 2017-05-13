@@ -1,5 +1,6 @@
 <?php
-
+use Illuminate\Support\Facades\Input as input;
+use App\User;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -30,8 +31,25 @@ Route::get('/prices/edit/{id}', 	'PricesController@edit');
 Route::get('/prices/delete/{id}', 	'PricesController@delete');
 
 Route::get('/contact', 	'ContactController@index');
-Route::post('/contact/success', 'ContactController@index');
+Route::get('/contact/success', 'ContactController@success');
 
+Route::get('/email', 'LoginController@email')->name('sendEmail');
+
+Route::get('/changepassword', function(){
+	return view('auth.changepassword');
+});
+Route::post('change/password', function(){
+	$User = user::find(Auth::user()->id);
+
+	if(Hash::check(Input::get('passwordold'), $User['password']) && Input::get('password') == Input::get('password_confirmation')){
+		$User->password = bcrypt(Input::get('password'));
+		$User->save();
+		return back()->with('success','Password Changed');
+	} else {
+		return back()->with('error','Password NOT Changed');
+	}
+
+});
 
 Route::get('/logout', function(){
 

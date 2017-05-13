@@ -13,9 +13,12 @@
                         
                         <div class="text-align">
                             <h1>WELCOME {{ Auth::user()->name }}<br>
-                            <a href="/team/#team1"><button type="button" class="btn btn-default text-center"><h4><strong>Make changes to team</strong></h4></button></a><br>
-                            <a href="/home"><button type="button" class="btn btn-default text-center"><h4><strong>Go to home page</strong></h4></button></a><br>
-                            <a href="{{ route('password.request') }}"><button type="button" class="btn btn-default text-center"><h4><strong>Change your password</strong></h4></button></a></h1>
+                            
+                            <a href="/home"><button type="button" class="btn btn-default text-center"><h4><strong>GO TO HOME PAGE</strong></h4></button></a><br>
+
+                            <a href="/team/#team1"><button type="button" class="btn btn-default text-center"><h4><strong>MAKE CHANGES TO THE TEAM</strong></h4></button></a><br>
+
+                            <a href="/changepassword"><button type="button" class="btn btn-default text-center"><h4><strong>CHANGE YOUR PASSWORD</strong></h4></button></a></h1>
                           
                             
                         </div>

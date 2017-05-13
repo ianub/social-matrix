@@ -26,7 +26,7 @@
 		       <div class="wrapper_bu">
 		           <div class="image">
                         <a class="panel-heading accordion-toggle collapsed left" data-toggle="collapse"
-                           data-parent="#accordion1,#accordion2,#accordion3,#accordion4,#accordion5" data-target="#collapseOne">
+                           data-parent="#accordion1" data-target="#collapseOne">
                             <div id="bu1">
                                   <i class="fa fa-lightbulb-o fa-5x" aria-hidden="true"></i>
                                   {{-- <img alt="" src="https://s6.postimg.org/ek5rpg6i9/karachi.png" class="img-responsive imgtransform"> --}}
@@ -36,7 +36,7 @@
                  </div>
                  <div class="image">
                     <a class="panel-heading accordion-toggle collapsed left" data-toggle="collapse"
-                       data-parent="#accordion1,#accordion2,#accordion3,#accordion4,#accordion5" data-target="#collapseTwo">
+                       data-parent="#accordion1" data-target="#collapseTwo">
                         <div id="bu2">
                             <i class="fa fa-commenting-o fa-5x" aria-hidden="true"></i>
                             {{-- <img alt="" src="https://s6.postimg.org/kwgbljk6p/islamabad.png" class="img-responsive imgtransform"> --}}
@@ -45,7 +45,7 @@
                     </a>
                  </div>
                 <div class="image">
-                    <a class="panel-heading accordion-toggle collapsed left " data-toggle="collapse" data-parent="#accordion1,#accordion2,#accordion3,#accordion4,#accordion5"
+                    <a class="panel-heading accordion-toggle collapsed left " data-toggle="collapse" data-parent="#accordion1"
                        data-target="#collapseThree">
                           <div id="bu3">
                           <i class="fa fa-line-chart fa-5x" aria-hidden="true"></i>
@@ -56,7 +56,7 @@
                 </div>
                 <div class="image">
                         <a class="panel-heading accordion-toggle collapsed left" data-toggle="collapse"
-                           data-parent="#accordion1,#accordion2,#accordion3,#accordion4,#accordion5" data-target="#collapseFour">
+                           data-parent="#accordion1" data-target="#collapseFour">
                             <div id="bu4">
                                   <i class="fa fa-folder-o fa-5x" aria-hidden="true"></i>
                               {{-- <img alt="" src="https://s6.postimg.org/4wxo1zo4x/dubai.png" class="img-responsive imgtransform"> --}}
@@ -66,7 +66,7 @@
                  </div>
                  <div class="image">
                         <a class="panel-heading accordion-toggle collapsed left" data-toggle="collapse"
-                           data-parent="#accordion1,#accordion2,#accordion3,#accordion4,#accordion5" data-target="#collapseFive">
+                           data-parent="#accordion1" data-target="#collapseFive">
                             <div id="bu5">
                                   <i class="fa fa-pencil fa-5x" aria-hidden="true"></i>
                               {{-- <img alt="" src="https://s6.postimg.org/4wxo1zo4x/dubai.png" class="img-responsive imgtransform"> --}}

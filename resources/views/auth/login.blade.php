@@ -54,6 +54,10 @@
                                             Login
                                         </button>
 
+                                        <a href="{{route('sendEmail')}}"><button type="submit" class="btn btn-primary">SEND AN EMAIL</button></a>
+
+
+
                                         <a href="{{ route('password.request') }}">Forgot Your Password?</a>    
                                     </div>
                                 </div>
