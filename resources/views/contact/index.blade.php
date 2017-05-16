@@ -23,7 +23,7 @@
 			<div class="container-fluid">
 				<div class="row">
 
-					<div class="col-md-8 col-lg-6 col-md-offset-2 col-lg-offset-3 text-center">
+						<div class="col-md-8 col-lg-6 col-md-offset-2 col-lg-offset-3 text-center">
 							<p>TOUCH A BASE TODAY.<br>LET US GET YOUR BUSINESS SOCIAL SALES READY.</p>
 							
 							
@@ -70,12 +70,8 @@
 							
 							</div>
 
-							<button type="button" class="btn btn-default">SUBMIT</button>
-					</div>
-						
-
-				
-						
+							<button type="submit" class="btn btn-default">SUBMIT</button>
+						</div>
 				</div>
 			</div>
 		</div>

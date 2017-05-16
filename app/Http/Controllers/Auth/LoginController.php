@@ -39,10 +39,4 @@ class LoginController extends Controller
     {
         $this->middleware('guest', ['except' => 'logout']);
     }
-
-    public function email(){
-        //  send the email and redirect to page
-        Mail::to(Auth::user()->email)->send(new AdminWelcome());
-        return redirect ('/account');
-    }
 }
