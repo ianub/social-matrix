@@ -31,7 +31,7 @@ Route::get('/prices/edit/{id}', 	'PricesController@edit');
 Route::get('/prices/delete/{id}', 	'PricesController@delete');
 
 Route::get('/contact', 	'ContactController@index');
-Route::get('/contact/success', 'ContactController@success');
+Route::post('/contact/success', 'ContactController@success');
 
 Route::get('/email', 'LoginController@email')->name('sendEmail');
 
