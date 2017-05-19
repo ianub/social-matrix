@@ -1,4 +1,4 @@
-{{-- @component('mail::message')
+@component('mail::message')
 # Welcome to Social Matrix
 
 You have **signed in**
@@ -10,6 +10,3 @@ Go to our home page
 Thanks,<br>
 {{ config('app.name') }}
 @endcomponent
- --}}
-
- hiefjfejfpeojp
